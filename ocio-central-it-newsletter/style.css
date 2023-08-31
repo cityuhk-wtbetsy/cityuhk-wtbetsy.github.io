@@ -1,0 +1,213 @@
+/* root */
+
+:root {
+
+    --cityu-metallic-black-10: #1C1C1B; /* Metallic Colours - CityU Black */
+    --cityu-metallic-black-20: #333332;
+    --cityu-metallic-black-30: #494948;
+    --cityu-metallic-black-40: #60605F;
+    --cityu-metallic-black-50: #777776;
+    --cityu-metallic-black-60: #8E8E8D;
+    --cityu-metallic-black-70: #A4A4A3;
+    --cityu-metallic-black-80: #BBBBBA;
+    --cityu-metallic-black-90: #D2D2D1;
+    --cityu-metallic-black-95: #E8E8E8;
+
+    --cityu-metallic-oslogray-10: #242424;
+    --cityu-metallic-oslogray-20: #484949;
+    --cityu-metallic-oslogray-30: #6C6D6D;
+    --cityu-metallic-oslogray-40: #919292;
+    --cityu-metallic-oslogray-50: #B5B6B6; /* Metallic Colours - Pantone 877C */
+    --cityu-metallic-oslogray-60: #C1C2C2;
+    --cityu-metallic-oslogray-70: #CDCECE;
+    --cityu-metallic-oslogray-80: #DADBDB;
+    --cityu-metallic-oslogray-90: #E6E7E7;
+    --cityu-metallic-oslogray-95: #F3F3F3;
+
+    --cityu-metallic-palliser-10: #231712;
+    --cityu-metallic-palliser-20: #462D25;
+    --cityu-metallic-palliser-30: #694437;
+    --cityu-metallic-palliser-40: #8C5A4A;
+    --cityu-metallic-palliser-50: #AF715C; /* Metallic Colours - Pantone 876C */
+    --cityu-metallic-palliser-60: #BC8977;
+    --cityu-metallic-palliser-70: #CAA092;
+    --cityu-metallic-palliser-80: #D7B8AE;
+    --cityu-metallic-palliser-90: #E4D0C9;
+    --cityu-metallic-palliser-95: #F2E7E4;
+
+    --cityu-metallic-shadow-10: #221C15;
+    --cityu-metallic-shadow-20: #44392B;
+    --cityu-metallic-shadow-30: #665540;
+    --cityu-metallic-shadow-40: #887256;
+    --cityu-metallic-shadow-50: #AA8E6B; /* Metallic Colours - Pantone 872C */
+    --cityu-metallic-shadow-60: #B8A184;
+    --cityu-metallic-shadow-70: #C6B49C;
+    --cityu-metallic-shadow-80: #D4C7B5;
+    --cityu-metallic-shadow-90: #E3D9CE;
+    --cityu-metallic-shadow-95: #F1ECE6;
+
+    --cityu-primary-darkred-10: #15060C;
+    --cityu-primary-darkred-20: #2B0D19;
+    --cityu-primary-darkred-30: #401325;
+    --cityu-primary-darkred-40: #561A32;
+    --cityu-primary-darkred-50: #6B203E; /* CityU Primary Colours - Dark Red */
+    --cityu-primary-darkred-60: #84455E;
+    --cityu-primary-darkred-70: #9C6A7E;
+    --cityu-primary-darkred-80: #B5909F;
+    --cityu-primary-darkred-90: #CEB5BF;
+    --cityu-primary-darkred-95: #E6DADF;
+
+    --cityu-primary-lightred-10: #322C2E;
+    --cityu-primary-lightred-20: #64585D;
+    --cityu-primary-lightred-30: #96838B;
+    --cityu-primary-lightred-40: #C8AFBA;
+    --cityu-primary-lightred-50: #FADBE8; /* CityU Primary Colours - Light Red */
+    --cityu-primary-lightred-60: #FBE1EC;
+    --cityu-primary-lightred-70: #FCE7F0;
+    --cityu-primary-lightred-80: #FDEDF3;
+    --cityu-primary-lightred-90: #FDF3F7;
+    --cityu-primary-lightred-95: #FEF9FB;
+
+    --cityu-primary-red-10: #260413;
+    --cityu-primary-red-20: #4C0926;
+    --cityu-primary-red-30: #730D38;
+    --cityu-primary-red-40: #99124B;
+    --cityu-primary-red-50: #BF165E; /* CityU Primary Colours - Red */
+    --cityu-primary-red-60: #CA3D79;
+    --cityu-primary-red-70: #D46494;
+    --cityu-primary-red-80: #DF8BAF;
+    --cityu-primary-red-90: #EAB1C9;
+    --cityu-primary-red-95: #F4D8E4;
+
+    --cityu-secondary-blue-10: #001D2A;
+    --cityu-secondary-blue-20: #003A54;
+    --cityu-secondary-blue-30: #00567D;
+    --cityu-secondary-blue-40: #0073A7;
+    --cityu-secondary-blue-50: #0090D1; /* CityU Secondary Colours - Pantone 7461C */
+    --cityu-secondary-blue-60: #2BA3D9;
+    --cityu-secondary-blue-70: #55B5E0;
+    --cityu-secondary-blue-80: #80C8E8;
+    --cityu-secondary-blue-90: #AADAF0;
+    --cityu-secondary-blue-95: #D4ECF7;
+
+    --cityu-secondary-cyanblue-10: #000D18;
+    --cityu-secondary-cyanblue-20: #001A30;
+    --cityu-secondary-cyanblue-30: #002749;
+    --cityu-secondary-cyanblue-40: #003461;
+    --cityu-secondary-cyanblue-50: #004179; /* CityU Secondary Colours - Pantone 534C */
+    --cityu-secondary-cyanblue-60: #2B618F;
+    --cityu-secondary-cyanblue-70: #5580A6;
+    --cityu-secondary-cyanblue-80: #80A0BC;
+    --cityu-secondary-cyanblue-90: #AAC0D2;
+    --cityu-secondary-cyanblue-95: #D4DFE9;
+
+    --cityu-secondary-greenhaze-10: #001E12;
+    --cityu-secondary-greenhaze-20: #003D23;
+    --cityu-secondary-greenhaze-30: #005B35;
+    --cityu-secondary-greenhaze-40: #007A46;
+    --cityu-secondary-greenhaze-50: #009858; /* CityU Secondary Colours - Pantone 347C */
+    --cityu-secondary-greenhaze-60: #2BA974;
+    --cityu-secondary-greenhaze-70: #55BA90;
+    --cityu-secondary-greenhaze-80: #80CCAC;
+    --cityu-secondary-greenhaze-90: #AADDC7;
+    --cityu-secondary-greenhaze-95: #D4EEE3;
+
+    --cityu-secondary-lagoon-10: #001D21;
+    --cityu-secondary-lagoon-20: #003941;
+    --cityu-secondary-lagoon-30: #005662;
+    --cityu-secondary-lagoon-40: #007282;
+    --cityu-secondary-lagoon-50: #008FA3; /* CityU Secondary Colours - Pantone 7474C */
+    --cityu-secondary-lagoon-60: #2BA2B2;
+    --cityu-secondary-lagoon-70: #55B4C2;
+    --cityu-secondary-lagoon-80: #80C7D1;
+    --cityu-secondary-lagoon-90: #AADAE0;
+    --cityu-secondary-lagoon-95: #D4ECF0;
+
+    --cityu-secondary-larioja-10: #262700;
+    --cityu-secondary-larioja-20: #4B4F00;
+    --cityu-secondary-larioja-30: #717600;
+    --cityu-secondary-larioja-40: #969E00;
+    --cityu-secondary-larioja-50: #BCC500; /* CityU Secondary Colours - Pantone 583C */
+    --cityu-secondary-larioja-60: #C7CF2B;
+    --cityu-secondary-larioja-70: #D2D855;
+    --cityu-secondary-larioja-80: #DEE280;
+    --cityu-secondary-larioja-90: #E9ECAA;
+    --cityu-secondary-larioja-95: #F4F5D4;
+
+    --cityu-secondary-orange-10: #2E1600;
+    --cityu-secondary-orange-20: #5B2D00;
+    --cityu-secondary-orange-30: #894300;
+    --cityu-secondary-orange-40: #B65A00;
+    --cityu-secondary-orange-50: #E47000; /* CityU Secondary Colours - Pantone 159C */
+    --cityu-secondary-orange-60: #E9882B;
+    --cityu-secondary-orange-70: #EDA055;
+    --cityu-secondary-orange-80: #F2B880;
+    --cityu-secondary-orange-90: #F6CFAA;
+    --cityu-secondary-orange-95: #FAE7D4;
+
+    --cityu-secondary-purple-10: #190118;
+    --cityu-secondary-purple-20: #320130;
+    --cityu-secondary-purple-30: #4A0248;
+    --cityu-secondary-purple-40: #630260;
+    --cityu-secondary-purple-50: #7C0378; /* CityU Secondary Colours - Pantone 259C */
+    --cityu-secondary-purple-60: #922D8F;
+    --cityu-secondary-purple-70: #A857A5;
+    --cityu-secondary-purple-80: #BE81BC;
+    --cityu-secondary-purple-90: #D3ABD2;
+    --cityu-secondary-purple-95: #E9D5E8;
+
+    --cityu-secondary-sand-10: #281B00;
+    --cityu-secondary-sand-20: #513600;
+    --cityu-secondary-sand-30: #795000;
+    --cityu-secondary-sand-40: #A26B00;
+    --cityu-secondary-sand-50: #CA8600; /* CityU Secondary Colours - Pantone 7511C */
+    --cityu-secondary-sand-60: #D39A2B;
+    --cityu-secondary-sand-70: #DCAE55;
+    --cityu-secondary-sand-80: #E4C380;
+    --cityu-secondary-sand-90: #EDD7AA;
+    --cityu-secondary-sand-95: #F6EBD4;
+
+    --cityu-secondary-shiraz-10: #28000D;
+    --cityu-secondary-shiraz-20: #500019;
+    --cityu-secondary-shiraz-30: #780026;
+    --cityu-secondary-shiraz-40: #A00032;
+    --cityu-secondary-shiraz-50: #C8003F; /* CityU Secondary Colours - Pantone 1945C */
+    --cityu-secondary-shiraz-60: #D12B5F;
+    --cityu-secondary-shiraz-70: #DA557F;
+    --cityu-secondary-shiraz-80: #E3809F;
+    --cityu-secondary-shiraz-90: #EDAABF;
+    --cityu-secondary-shiraz-95: #F6D4DF;
+
+    --cityu-secondary-spicymix-10: #1D1609;
+    --cityu-secondary-spicymix-20: #3A2C12;
+    --cityu-secondary-spicymix-30: #56431B;
+    --cityu-secondary-spicymix-40: #735924;
+    --cityu-secondary-spicymix-50: #906F2D; /* CityU Secondary Colours - Pantone 7505C */
+    --cityu-secondary-spicymix-60: #A38750;
+    --cityu-secondary-spicymix-70: #B59F73;
+    --cityu-secondary-spicymix-80: #C8B796;
+    --cityu-secondary-spicymix-90: #DACFB9;
+    --cityu-secondary-spicymix-95: #ECE7DC;
+
+    --cityu-secondary-sycamore-10: #20230C;
+    --cityu-secondary-sycamore-20: #414618;
+    --cityu-secondary-sycamore-30: #616923;
+    --cityu-secondary-sycamore-40: #828C2F;
+    --cityu-secondary-sycamore-50: #A2AF3B; /* CityU Secondary Colours - Pantone 7495C */
+    --cityu-secondary-sycamore-60: #B2BC5C;
+    --cityu-secondary-sycamore-70: #C1CA7C;
+    --cityu-secondary-sycamore-80: #D1D79D;
+    --cityu-secondary-sycamore-90: #E0E4BE;
+    --cityu-secondary-sycamore-95: #EFF2DE;
+
+    --cityu-secondary-yellow-10: #332B0F;
+    --cityu-secondary-yellow-20: #66571D;
+    --cityu-secondary-yellow-30: #98822C;
+    --cityu-secondary-yellow-40: #CBAE3A;
+    --cityu-secondary-yellow-50: #FED949; /* CityU Secondary Colours - Pantone 129C */
+    --cityu-secondary-yellow-60: #FEDF67;
+    --cityu-secondary-yellow-70: #FEE686;
+    --cityu-secondary-yellow-80: #FFECA4;
+    --cityu-secondary-yellow-90: #FFF2C2;
+    --cityu-secondary-yellow-95: #FFF9E1;
+}
