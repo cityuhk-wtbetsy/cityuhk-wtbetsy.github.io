@@ -2,6 +2,7 @@
 
 
 @import url("styles-resolution-desktop.css");
+@import url("styles-resolution-tablet.css");
 @import url("styles-resolution-mobile.css");
 
 :root {
