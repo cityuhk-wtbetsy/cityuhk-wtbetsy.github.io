@@ -5,7 +5,25 @@
 @import url("styles-resolution-tablet.css");
 @import url("styles-resolution-mobile.css");
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Lato", "Roboto", "Inter", "Open Sans", sans-serif;
+}
+
 :root {
+
+    --font-thin_hairline: 100;
+    --font-extralight_ultralight: 200;
+    --font-light: 300;
+    --font-normal_regular: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+    --font-extrabold_ultrabold: 800;
+    --font-black_heavy: 900;
+    --font-extrablack_ultrablack: 950;
 
     --cityu-metallic-black-10: #1C1C1B; /* Metallic Colours - CityU Black */
     --cityu-metallic-black-20: #333332;
