@@ -26,6 +26,12 @@ body {
     height: 100%;
 }
 
+
+
+
+
+/* header */
+
 .top-cityu-dept {
     width: 100%;
     height: 48px;
@@ -53,3 +59,55 @@ body {
     font-weight: var(--font-bold);
     text-align: right;
 }
+
+
+
+
+/* side */
+.side-left { float: left; }
+.side-right { float: right; }
+.linebreak { clear: both; }
+
+
+
+/* post */
+
+.posts { color: var(--cityu-metallic-black-20); }
+.post-title {
+    font-size: 26px;
+    font-weight: var(--font-bold);
+}
+.post-content {
+    font-size: 18px;
+    font-weight: var(--font-medium);
+}
+.post-content li { padding-top: 9px; }
+
+.post-desktop-col8 { width: 624px; min-height: 240px; }
+.post-desktop-col8 .post-body { width: 100%; padding-left: 24px; padding-right: 24px; }
+.post-desktop-col8 .post-body ul { padding-top: 12px; padding-left: 24px; padding-right: 24px; }
+.post-desktop-col4 { width: 304px; min-height: 320px; }
+.post-desktop-col4 .post-body { width: 100%; padding-left: 16px; padding-right: 16px; }
+.post-desktop-col4 .post-body ul { padding-top: 12px; padding-left: 16px; padding-right: 16px; }
+
+.post-category {
+    width: 100%;
+    min-height: 24px;
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: var(--font-bold);
+}
+.post-category a:link,
+.post-category a:hover,
+.post-category a:active,
+.post-category a:visited { color: #FFFFFF; text-decoration: none; }
+
+.category-about_cityu,
+.category-about_cityu a:link,
+.category-about_cityu a:visited { background-color: var(--cityu-primary-red-50); }
+.category-about_cityu a:hover,
+.category-about_cityu a:active { background-color: var(--cityu-primary-red-40); }
