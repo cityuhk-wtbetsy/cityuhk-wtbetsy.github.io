@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newsletter>
+    <post>
+        <title>CityU GPT Chatbot</title>
+        <volume>2023-09</volume>
+        <date>
+            <year>2023</year>
+            <month>09</month>
+            <day>04</day>
+        </date>
+        <category>About CityU</category>
+        <content><![CDATA[
+            <ul>
+            <li>Free to Students and Staff for learning, teaching and administrative support </li>
+            <li>Accessible via CityU Mobile App and CityU Portal</li>
+            </ul>
+        ]]></content>
+        <images>
+            <img>
+                <file>202309_gpt-chatbot.jpg</file>
+                <description>Introducing the CityU GPT chatbot</description>
+            </img>
+        </images>
+    </post>
+</newsletter>
