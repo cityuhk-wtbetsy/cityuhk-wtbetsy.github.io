@@ -42,6 +42,16 @@ body {
     height: 74px;
     border-top: solid 2px var(--cityu-metallic-black-30);
     border-bottom: solid 4px var(--cityu-metallic-black-30);
+    /*background: url(../images/ui/desktop/title.png) no-repeat center;*/
+}
+
+.top-header-title {
+    position: relative;
+    float: left;
+    left: 160px;
+    width: 624px;
+    height: 74px;
+    background-image: url(../images/ui/desktop/title.png);
 }
 
 .top-header-volume {
@@ -58,6 +68,7 @@ body {
     font-size: 18px;
     font-weight: var(--font-bold);
     text-align: right;
+    pointer-events: none;
 }
 
 
