@@ -12,10 +12,34 @@
         height: 24px;
     }
 
+    .top-cityu-logo {
+        width: 40px;
+        height: 24px;
+        background-size: 40px 24px;
+    }
+
+    .top-dept {
+        margin-left: -56px;
+        width: 112px;
+        height: 20px;
+    }
+    .top-dept-ocio, .top-dept-csc, .top-dept-esu, .top-dept-separator { height: 20px; }
+    .top-dept-ocio { width: 32px; background-size: 32px 20px; }
+    .top-dept-csc, .top-dept-esu { width: 24px; background-size: 24px 20px; }
+    .top-dept-separator { width: 16px; background-size: 16px 20px; }
+
     .top-header {
         height: 29px;
         border-top: solid 1px var(--cityu-metallic-black-30);
         border-bottom: solid 2px var(--cityu-metallic-black-30);
+    }
+
+    .top-header-title {
+        margin-left: 0;
+        left: 8px;
+        width: 208px;
+        height: 29px;
+        background-image: url(../images/ui/mobile/title.png);
     }
 
     .top-header-volume {

@@ -37,21 +37,45 @@ body {
     height: 48px;
 }
 
+.top-cityu-logo {
+    position: relative;
+    float: left;
+    z-index: 100;
+    width: 80px;
+    height: 48px;
+    background-image: url(../images/ui/desktop/header-logo-cityu_black.png);
+    cursor: pointer;
+}
+
+.top-dept {
+    position: absolute;
+    left: 50%;
+    margin-left: -112px;
+    width: 224px;
+    height: 40px;
+}
+.top-dept-ocio, .top-dept-csc, .top-dept-esu, .top-dept-separator { height: 40px; float: left; }
+.top-dept-ocio, .top-dept-csc, .top-dept-esu { cursor: pointer; }
+.top-dept-ocio { width: 64px; background-image: url(../images/ui/desktop/dept-ocio.png); }
+.top-dept-csc { width: 48px; background-image: url(../images/ui/desktop/dept-csc.png); }
+.top-dept-esu { width: 48px; background-image: url(../images/ui/desktop/dept-esu.png); }
+.top-dept-separator { width: 32px; background-image: url(../images/ui/desktop/dept-separator.png); }
+
 .top-header {
     width: 100%;
     height: 74px;
     border-top: solid 2px var(--cityu-metallic-black-30);
     border-bottom: solid 4px var(--cityu-metallic-black-30);
-    /*background: url(../images/ui/desktop/title.png) no-repeat center;*/
 }
 
 .top-header-title {
-    position: relative;
-    float: left;
-    left: 160px;
+    position: absolute;
+    left: 50%;
+    margin-left: -312px;
     width: 624px;
     height: 74px;
     background-image: url(../images/ui/desktop/title.png);
+    cursor: pointer;
 }
 
 .top-header-volume {

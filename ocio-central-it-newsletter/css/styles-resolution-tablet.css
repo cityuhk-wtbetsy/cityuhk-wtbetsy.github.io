@@ -18,6 +18,13 @@
         height: 58px;
     }
 
+    .top-header-title {
+        margin-left: -180px;
+        width: 360px;
+        height: 58px;
+        background-image: url(../images/ui/tablet/title.png);
+    }
+
     .top-header-volume {
         width: 50px;
         height: 44px;
