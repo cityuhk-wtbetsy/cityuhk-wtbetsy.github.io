@@ -9,6 +9,12 @@ body {
     background-color: var(--cityu-secondary-spicymix-95);
 }
 
+a:link,
+a:hover,
+a:active,
+a:visited { color: var(--cityu-metallic-black-30); text-decoration: none; border-bottom: dashed 2px var(--cityu-metallic-black-30); }
+a:hover, a:active { color: var(--cityu-metallic-black-20); font-weight: var(--font-bold); }
+
 .container {
     /*position: relative;*/
     margin: auto;
@@ -66,6 +72,7 @@ body {
     height: 74px;
     border-top: solid 2px var(--cityu-metallic-black-30);
     border-bottom: solid 4px var(--cityu-metallic-black-30);
+    background-color: #FFFFFF;
 }
 
 .top-header-title {
@@ -111,6 +118,7 @@ body {
 .post-title {
     font-size: 26px;
     font-weight: var(--font-bold);
+    margin-bottom: 8px;
 }
 .post-content {
     font-size: 18px;
@@ -118,9 +126,12 @@ body {
 }
 .post-content li { padding-top: 9px; }
 
-.post-desktop-col8 { width: 624px; min-height: 240px; }
+.post-desktop-col8 { width: 624px; min-height: 240px; margin-bottom: 8px; }
 .post-desktop-col8 .post-body { width: 100%; padding-left: 24px; padding-right: 24px; }
 .post-desktop-col8 .post-body ul { padding-top: 12px; padding-left: 24px; padding-right: 24px; }
+.post-desktop-col8 .post-text { float: left; width: 280px; }
+.post-desktop-col8 .post-image { float: left; width: 280px; margin-left: 16px; margin-right: 0; }
+.post-desktop-col8 .post-image img { width: 280px; height: auto; border: solid 4px var(--cityu-metallic-black-80); }
 .post-desktop-col4 { width: 304px; min-height: 320px; }
 .post-desktop-col4 .post-body { width: 100%; padding-left: 16px; padding-right: 16px; }
 .post-desktop-col4 .post-body ul { padding-top: 12px; padding-left: 16px; padding-right: 16px; }
@@ -146,3 +157,69 @@ body {
 .category-about_cityu a:visited { background-color: var(--cityu-primary-red-50); }
 .category-about_cityu a:hover,
 .category-about_cityu a:active { background-color: var(--cityu-primary-red-40); }
+
+.category-academics,
+.category-academics a:link,
+.category-academics a:visited { background-color: var(--cityu-primary-darkred-30); }
+.category-academics a:hover,
+.category-academics a:active { background-color: var(--cityu-primary-darkred-20); }
+
+.category-applications_and_data,
+.category-applications_and_data a:link,
+.category-applications_and_data a:visited { background-color: var(--cityu-secondary-shiraz-30); }
+.category-applications_and_data a:hover,
+.category-applications_and_data a:active { background-color: var(--cityu-secondary-shiraz-20); }
+
+.category-communication_and_collaboration,
+.category-communication_and_collaboration a:link,
+.category-communication_and_collaboration a:visited { background-color: var(--cityu-secondary-orange-30); }
+.category-communication_and_collaboration a:hover,
+.category-communication_and_collaboration a:active { background-color: var(--cityu-secondary-orange-20); }
+
+.category-network_and_infrastructure,
+.category-network_and_infrastructure a:link,
+.category-network_and_infrastructure a:visited { background-color: var(--cityu-secondary-yellow-20); }
+.category-network_and_infrastructure a:hover,
+.category-network_and_infrastructure a:active { background-color: var(--cityu-secondary-yellow-10); }
+
+.category-other_news,
+.category-other_news a:link,
+.category-other_news a:visited { background-color: var(--cityu-metallic-black-30); }
+.category-other_news a:hover,
+.category-other_news a:active { background-color: var(--cityu-metallic-black-20); }
+
+.category-personal_computing,
+.category-personal_computing a:link,
+.category-personal_computing a:visited { background-color: var(--cityu-secondary-cyanblue-50); }
+.category-personal_computing a:hover,
+.category-personal_computing a:active { background-color: var(--cityu-secondary-cyanblue-40); }
+
+.category-printing_facilities,
+.category-printing_facilities a:link,
+.category-printing_facilities a:visited { background-color: var(--cityu-secondary-blue-30); }
+.category-printing_facilities a:hover,
+.category-printing_facilities a:active { background-color: var(--cityu-secondary-blue-20); }
+
+.category-research_news,
+.category-research_news a:link,
+.category-research_news a:visited { background-color: var(--cityu-secondary-lagoon-30); }
+.category-research_news a:hover,
+.category-research_news a:active { background-color: var(--cityu-secondary-lagoon-20); }
+
+.category-security,
+.category-security a:link,
+.category-security a:visited { background-color: var(--cityu-secondary-sycamore-20); }
+.category-security a:hover,
+.category-security a:active { background-color: var(--cityu-secondary-sycamore-10); }
+
+.category-teaching_and_learning,
+.category-teaching_and_learning a:link,
+.category-teaching_and_learning a:visited { background-color: var(--cityu-secondary-purple-30); }
+.category-teaching_and_learning a:hover,
+.category-teaching_and_learning a:active { background-color: var(--cityu-secondary-purple-20); }
+
+.category-web_development_and_hosting,
+.category-web_development_and_hosting a:link,
+.category-web_development_and_hosting a:visited { background-color: var(--cityu-secondary-greenhaze-30); }
+.category-web_development_and_hosting a:hover,
+.category-web_development_and_hosting a:active { background-color: var(--cityu-secondary-greenhaze-20); }
