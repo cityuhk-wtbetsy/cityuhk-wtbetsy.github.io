@@ -12,8 +12,8 @@ body {
 a:link,
 a:hover,
 a:active,
-a:visited { color: var(--cityu-metallic-black-30); text-decoration: none; border-bottom: dashed 2px var(--cityu-metallic-black-30); }
-a:hover, a:active { color: var(--cityu-metallic-black-20); font-weight: var(--font-bold); }
+a:visited { color: var(--cityu-metallic-black-30); text-decoration-style: dotted;  }
+a:hover, a:active { color: var(--cityu-metallic-black-10); }
 
 .container {
     /*position: relative;*/
