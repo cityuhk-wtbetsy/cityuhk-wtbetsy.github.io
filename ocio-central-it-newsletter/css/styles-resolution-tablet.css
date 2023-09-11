@@ -58,11 +58,13 @@
     .post-content li { padding-top: 8px; }
     */
 
-    .post-desktop-col8 { width: 100%; }
-    .post-desktop-col8 .post-body { padding-left: 16px; padding-right: 16px; }
-    .post-desktop-col8 .post-text { width: 50%; }
-    .post-desktop-col8 .post-image { margin-left: 0; width: 50%; }
-    .post-desktop-col8 .post-image img { width: 90%; }
+    .post-col8,
+    .post-col8-imageheader { width: 100%; }
+    .post-body { margin-left: 16px; margin-right: 16px; }
+    .post-col8 .post-text,
+    .post-col8-imageheader .post-text { width: 50%; }
+    .post-col8 .post-image { margin-left: 0; width: 50%; }
+    .post-col8 .post-image img { width: 90%; }
 
     .post-category { margin-top: 16px; }
 }
