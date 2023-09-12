@@ -73,7 +73,9 @@
     .post-col8-borderbox .post-image { width: 45%; }
     .post-col8 .post-image img,
     .post-col8-imageheader .post-image img,
-    .post-col8-borderbox .post-image img { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
+    .post-col8-borderbox .post-image img,
+    .post-col8-borderbox .post-image .post-content { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
+    .post-col8-borderbox .post-image .post-content li { margin-left: 5%; }
     .post-col8-imageheader .post-image img { margin-top: 12px; }
 
     .post-category { margin-top: 16px; }
