@@ -59,10 +59,11 @@
 
 
     /* post */
-    .post-title { font-size: 24px; }
-    .post-content { font-size: 16px; }
+    .post-title { font-size: 18px; }
+    .post-content { font-size: 14px; }
     .post-content li { padding-top: 8px; }
 
     .post-col8 .post-text ul { padding-top: 4px; }
+    .post-col8-imageheader .post-image img { margin-top: 6px; }
 
 }

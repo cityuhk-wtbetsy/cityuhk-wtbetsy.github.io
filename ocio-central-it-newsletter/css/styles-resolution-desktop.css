@@ -120,6 +120,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .side-right { float: right; }
 .side-right::after { clear: both; display: block; }
 .linebreak { clear: both; }
+.horizontal-separator-space { clear: both; height: 24px; }
 
 
 
@@ -140,10 +141,11 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-content li { padding-top: 9px; }
 
 .post-col8,
-.post-col8-imageheader { width: 624px; min-height: 240px; margin-bottom: 8px; }
+.post-col8-imageheader,
+.post-col8-borderbox { width: 624px; display: block; }
 
-.post-col8 .post-body { width: 100%; margin-left: 24px; margin-right: 24px; }
-.post-col8 .post-text { float: left; width: 280px; }
+.post-col8 .post-body { width: auto; min-height: 120px; margin-left: 24px; margin-right: 24px; }
+.post-col8 .post-text { float: left; width: 280px; xw}
 .post-col8 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 24px; }
 .post-col8 .post-text::after { clear: both; display: block; }
 .post-col8 .post-image { float: left; width: 280px; margin-left: 16px; margin-right: 0; }
@@ -151,7 +153,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-col8 .post-image img { width: 280px; border: solid 4px var(--cityu-metallic-black-80); }
 .post-col8::after { clear: both; display: block; }
 
-.post-col8-imageheader .post-body { width: 100%; margin-right: 24px; }
+.post-col8-imageheader .post-body { width: 100%; min-height: 120px; margin-right: 24px; }
 .post-col8-imageheader .post-image { float: left; width: 312px; padding-top: 12px; padding-bottom: 12px; background-color: var(--cityu-metallic-black-30); }
 .post-col8-imageheader .post-image:after { clear: both; display: block; }
 .post-col8-imageheader .post-image img { width: 280px; border: solid 4px var(--cityu-metallic-black-80); margin-left: 12px; }
@@ -160,6 +162,8 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-col8-imageheader .post-text ul { padding-top: 8px; padding-left: 24px; padding-right: 24px; }
 .post-col8-imageheader .post-text::after { clear: both; display: block; }
 .post-col8-imageheader::after { clear: both; display: block; }
+
+.post-col8-borderbox .post-body { width: 100%; min-height: 120px; border: solid 4px var(--cityu-metallic-black-80); }
 
 
 
