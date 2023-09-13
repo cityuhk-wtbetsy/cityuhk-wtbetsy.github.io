@@ -45,28 +45,29 @@
 
 
     /* side */
-    .side-left, .side-left { float: none; clear: both; margin-right: 8px; }
+    .side-left, .side-right { float: none; clear: both; }
 
 
 
 
     /* post */
 
-    /*
-    .post-title { font-size: 24px; }
+
+    .post-title { font-size: 22px; }
     .post-content { font-size: 16px; }
+    /*
     .post-content li { padding-top: 8px; }
     */
 
     .post-col8,
     .post-col8-imageheader,
-    .post-col8-borderbox { width: 100%; }
+    .post-col8-borderbox { width: auto; }
     /*.post-body { margin-left: 16px; margin-right: 16px; }*/
-    .post-col8 .post-body,
-    .post-col8-imageheader .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
-    .post-col8 .post-text,
+    .post-col8 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col8-imageheader .post-body { width: auto; margin-left: 0; margin-right: 5%; }
     .post-col8 .post-image,
     .post-col8-imageheader .post-image  { width: 50%; }
+    .post-col8 .post-text,
     .post-col8-borderbox .post-text { width: 45%; }
     .post-col8 .post-image { margin-left: 0; }
     .post-col8-imageheader .post-text { width: 45%; margin-left: 5%; }
@@ -77,6 +78,19 @@
     .post-col8-borderbox .post-image .post-content { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
     .post-col8-borderbox .post-image .post-content li { margin-left: 5%; }
     .post-col8-imageheader .post-image img { margin-top: 12px; }
+
+
+    .post-col4_odd { float: left; }
+    .post-col4_even { float: right; }
+    .post-col4_odd,
+    .post-col4_even { width: 48%; }
+    .post-col4 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col4 .post-text ul { padding-left: 12px;  }
+    .post-col4-background-inverse .post-body { width: auto; }
+    .post-col4 .post-image,
+    .post-col4-background-inverse .post-image { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
+    .post-col4-background-inverse .post-title,
+    .post-col4-background-inverse .post-content { width: auto; margin-left: 5%; margin-right: 5%; }
 
     .post-category { margin-top: 16px; }
 }
