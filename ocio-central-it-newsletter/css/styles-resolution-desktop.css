@@ -285,3 +285,142 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .category-web_development_and_hosting a:visited { background-color: var(--cityu-secondary-greenhaze-30); }
 .category-web_development_and_hosting a:hover,
 .category-web_development_and_hosting a:active { background-color: var(--cityu-secondary-greenhaze-20); }
+
+
+
+
+/* footer */
+
+#footerArea {
+	width: 100%;
+	background-color: var(--cityu-metallic-black-20);
+	min-height: 320px;
+	margin: auto;
+}
+
+
+
+#footer {
+	width: 1008px;
+	margin: auto;
+}
+#footer a:hover,
+#footer a:active { background: none; text-decoration: underline; }
+
+#footer hr {
+    border-top: solid 1px var(--cityu-metallic-black-10);
+    border-bottom: solid 1px var(--cityu-metallic-black-30);
+    border-right-style: initial;
+    border-right-color: initial;
+    border-left-style: initial;
+    border-left-color: initial;
+    clear: both;
+}
+
+
+#cityu-footer-container { width: 944px; margin-left: auto; margin-right: auto; }
+
+
+/* from "//template.cityu.edu.hk/template/css/cityu.base.css" */
+
+#cityu-footer-column {overflow: hidden; clear: both; padding: 12px 0 15px 5px;font-size: 11px; color:#ffffff; }
+#cityu-footer-notes {float: left; margin-top: 24px;}
+#cityu-footer-links {padding-bottom: 5px;}
+#cityu-footer-links a {padding: 0 5px 0 0; color:#CCCCCC; text-decoration:none;}
+#cityu-footer-links a + a {padding-left: 5px; color:#CCCCCC;}
+#cityu-footer-links a:hover {text-decoration:underline; color:#FFFFFF;}
+#cityu-footer-icons {float: right;}
+#cityu-footer-icons a + a {padding-left: 10px;}
+#cityu-footer-credits {margin-top: 5px; color:#CCCCCC;}
+
+/* end of cityu.base.css */
+
+
+/* from "//www.cityu.edu.hk/cio/central-it/css/central-it.css" on 2015-07-06 */
+.central-it-wrapper {
+	float: left;
+	margin-left: 10px;
+}
+.central-it-wrapper img {
+	border: 0;
+}
+.central-it-logo {
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+.central-it-link {
+	display: block;
+	position: absolute;
+	top: 26px;
+	height: 16px;
+	border-radius: 5px;
+}
+.central-it-link:hover {
+	background-color: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+	filter: alpha(opacity=20);
+	-moz-opacity: 0.2;
+	-khtml-opacity: 0.2;
+	opacity: 0.2;
+	cursor: pointer;
+}
+.central-it-logo.black .central-it-link:hover {
+	background-color: #000;
+}
+.central-it-logo.color .central-it-link:hover {
+	background-color: #808080;
+}
+.central-it-link.ocio {
+	left: 0px;
+	width: 38px;
+}
+.central-it-link.csc {
+	left: 42px;
+	width: 32px;
+}
+.central-it-link.esu {
+	left: 78px;
+	width: 31px;
+}
+.central-it-link a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+/* end of central-it.css */
+
+
+/* from "cityu.core.css" on 2015-07-07 */
+/* Back to Top */
+
+a.cityu-backtotop {
+	overflow: hidden;
+	z-index: 8000;
+	position: fixed;
+	right: 10px;
+	bottom: 0;
+	margin: 0;
+	padding: 2px 4px;
+	height: 26px;
+	width: 22px;
+	/*background-color: #013c5a;*/
+	background-color: #362738;
+	font-size: 24px;
+	line-height: 24px;
+	cursor: pointer !important;
+	opacity: 0.8;
+	filter: alpha(Opacity=80);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+}
+a.cityu-backtotop:hover {opacity: 1; text-decoration: none;}
+a.cityu-backtotop i {color: #fff; text-shadow: 0 -1px 0 #000;}
+
+/* end */

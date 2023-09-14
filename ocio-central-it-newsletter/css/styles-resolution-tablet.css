@@ -93,5 +93,9 @@
     .post-col4-background-inverse .post-content { width: auto; margin-left: 5%; margin-right: 5%; }
 
     .post-category { margin-top: 16px; }
+
+
+    #footer { width: 100% }
+    #cityu-footer-container { width: auto; margin-left: 24px; margin-right: 24px; }
 }
 
