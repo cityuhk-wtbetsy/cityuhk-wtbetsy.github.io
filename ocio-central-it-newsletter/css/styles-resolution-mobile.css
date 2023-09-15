@@ -98,8 +98,9 @@
     .post-col4-background-inverse .post-image { width: 60%; margin-left: auto; margin-right: auto; }
 
 
+    #footer-central-it,
     #cityu-footer-container { width: auto; margin-left: 16px; margin-right: 16px; }
     #cityu-footer-notes { margin-top: 16px;}
     .central-it-wrapper img { width: 80px; height: auto; }
-
+    #footer-central-it .footer-specific { width: 100%; }
 }

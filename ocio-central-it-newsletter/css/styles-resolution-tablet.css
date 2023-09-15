@@ -96,6 +96,16 @@
 
 
     #footer { width: 100% }
+    #footer hr { width: auto; margin-left: 16px; margin-right: 16px; }
+    #footer-central-it,
     #cityu-footer-container { width: auto; margin-left: 24px; margin-right: 24px; }
+    #footer-central-it h1 { font-size: 21px; padding-top: 28px; }
+    #footer-central-it h2 { font-size: 18px; padding-top: 24px; }
+    #footer-central-it h3 { font-size: 16px; padding-top: 20px; }
+
+    /*
+    #footer-central-it p,
+    #footer-central-it table.footer-contact { font-size: 12px; }
+    */
 }
 

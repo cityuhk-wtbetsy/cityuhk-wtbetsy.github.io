@@ -303,6 +303,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 #footer {
 	width: 1008px;
 	margin: auto;
+	color: #FFFFFF;
 }
 #footer a:hover,
 #footer a:active { background: none; text-decoration: underline; }
@@ -317,8 +318,30 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
     clear: both;
 }
 
-
+#footer-central-it,
 #cityu-footer-container { width: 944px; margin-left: auto; margin-right: auto; }
+
+
+#footer-central-it { min-height: 80px; }
+#footer-central-it a:link,
+#footer-central-it a:hover,
+#footer-central-it a:visited,
+#footer-central-it a:active { color: #FFFFFF; }
+#footer-central-it a:link, #footer-central-it a:visited { text-decoration: none; }
+#footer-central-it a:hover, #footer-central-it a:active { text-decoration: underline; }
+#footer-central-it h1 { font-size: 24px; padding-top: 32px; }
+#footer-central-it h2 { font-size: 20px; padding-top: 24px; }
+#footer-central-it h3 { font-size: 18px; padding-top: 20px; }
+#footer-central-it p,
+#footer-central-it table.footer-contact { font-size: 14px; }
+#footer-central-it p { color: var(--cityu-metallic-black-80); }
+#footer-central-it table.footer-contact { margin-top: 8px; }
+#footer-central-it table.footer-contact th,
+#footer-central-it table.footer-contact td { padding-top: 4px; padding-bottom: 4px; }
+#footer-central-it table.footer-contact th { padding-right: 8px; }
+#footer-central-it table.footer-contact img { height: 16px; width: auto; }
+#footer-central-it .footer-specific { float: left; padding-top: 8px; width: 320px; height: 140px; margin-right: 32px; }
+
 
 
 /* from "//template.cityu.edu.hk/template/css/cityu.base.css" */
@@ -372,7 +395,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 	background-color: #808080;
 }
 .central-it-link.ocio {
-	left: 0px;
+	left: 0;
 	width: 38px;
 }
 .central-it-link.csc {
