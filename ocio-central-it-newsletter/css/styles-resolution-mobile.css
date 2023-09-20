@@ -61,7 +61,11 @@
     /* post */
     .post-title { font-size: 18px; }
     .post-content { font-size: 14px; }
-    .post-content li { padding-top: 8px; padding-bottom: 8px; }
+    .post-content h2 { font-size: 16px; padding-bottom: 4px; }
+    .post-content h2 img.h2-icon { width: 24px; margin-top: 8px; margin-right: 6px; }
+    .post-content li { padding-top: 6px; padding-bottom: 6px; }
+    .post-content ul,
+    .post-content ol { padding-bottom: 16px; }
 
     .post-col8 .post-text,
     .post-col8 .post-image,
