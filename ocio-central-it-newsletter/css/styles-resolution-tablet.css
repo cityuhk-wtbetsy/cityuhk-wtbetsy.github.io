@@ -67,7 +67,7 @@
     /*.post-body { margin-left: 16px; margin-right: 16px; }*/
     .post-col8 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
     .post-col8-width100 .post-image img { max-width: 536px; }
-    .post-col8-width100 .post-image img.pointNext { max-width: 576px; }
+    .post-col8-width100 .pointNext img { max-width: 576px; }
     .post-col8-imageheader .post-body { width: auto; margin-left: 0; margin-right: 5%; }
     .post-col8 .post-image,
     .post-col8-imageheader .post-image  { width: 50%; }
@@ -88,6 +88,8 @@
     .post-col4_even { float: right; }
     .post-col4_odd,
     .post-col4_even { width: 48%; }
+    .post-col4_odd .pointNext img,
+    .post-col4_even .pointNext img { margin-left: -16px; }
     .post-col4 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
     .post-col4 .post-text ul { padding-left: 12px;  }
     .post-col4-background-inverse .post-body { width: auto; }

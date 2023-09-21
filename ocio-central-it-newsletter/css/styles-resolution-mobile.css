@@ -66,6 +66,7 @@
     .post-content li { padding-top: 6px; padding-bottom: 6px; }
     .post-content ul,
     .post-content ol { padding-bottom: 16px; }
+    .pointNext { margin-top: -16px !important; }
 
     .post-col8 .post-text,
     .post-col8 .post-image,

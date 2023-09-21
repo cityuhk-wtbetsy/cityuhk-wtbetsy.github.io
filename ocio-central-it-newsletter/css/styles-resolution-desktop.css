@@ -151,6 +151,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-text::after,
 .post-image::after { clear: both; display: block; }
 .img-borderless img { border: none !important; }
+.pointNext { margin-top: -24px !important; }
 
 .post-col8,
 .post-col8-width100,
@@ -168,7 +169,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-col8-width100 .post-text { width: 100%; }
 .post-col8-width100 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
 .post-col8-width100 .post-image img { width: 100%; border: solid 4px var(--cityu-metallic-black-80); }
-.post-col8-width100 .post-image img.pointNext { margin-top: -24px; }
+/*.post-col8-width100 .post-image img.pointNext { margin-top: -24px; }*/
 .post-col8-width100::after { clear: both; display: block; }
 
 .post-col8-imageheader .post-body { width: 100%; margin-right: 24px; }
@@ -290,9 +291,14 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 
 .category-teaching_and_learning,
 .category-teaching_and_learning a:link,
-.category-teaching_and_learning a:visited { background-color: var(--cityu-secondary-purple-30); }
+.category-teaching_and_learning a:visited,
+.category-learning_and_teaching,
+.category-learning_and_teaching a:link,
+.category-learning_and_teaching a:visited { background-color: var(--cityu-secondary-purple-30); }
 .category-teaching_and_learning a:hover,
-.category-teaching_and_learning a:active { background-color: var(--cityu-secondary-purple-20); }
+.category-teaching_and_learning a:active,
+.category-learning_and_teaching a:hover,
+.category-learning_and_teaching a:active { background-color: var(--cityu-secondary-purple-20); }
 
 .category-web_development_and_hosting,
 .category-web_development_and_hosting a:link,
