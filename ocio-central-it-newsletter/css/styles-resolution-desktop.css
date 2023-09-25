@@ -229,6 +229,47 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-category a:visited { color: #FFFFFF; text-decoration: none; }
 .post-category::after { clear: both; display: block; }
 
+
+
+
+.category-staff,
+.category-staff a:link,
+.category-staff a:visited { background-color: var(--cityu-primary-red-40); }
+.category-staff a:hover,
+.category-staff a:active { background-color: var(--cityu-primary-red-20); }
+
+.category-student,
+.category-student a:link,
+.category-student a:visited { background-color: var(--cityu-secondary-cyanblue-50); }
+.category-student a:hover,
+.category-student a:active { background-color: var(--cityu-secondary-cyanblue-30); }
+
+.category-alumni,
+.category-alumni a:link,
+.category-alumni a:visited { background-color: var(--cityu-secondary-sand-30); }
+.category-alumni a:hover,
+.category-alumni a:active { background-color: var(--cityu-secondary-sand-10); }
+
+.category-staff_student,
+.category-staff_student a:link,
+.category-staff_student a:visited { background-color: var(--cityu-secondary-purple-30); }
+.category-staff_student a:hover,
+.category-staff_student a:active { background-color: var(--cityu-secondary-purple-10); }
+
+.category-student_alumni,
+.category-student_alumni a:link,
+.category-student_alumni a:visited { background-color: var(--cityu-secondary-greenhaze-30); }
+.category-student_alumni a:hover,
+.category-student_alumni a:active { background-color: var(--cityu-secondary-greenhaze-10); }
+
+.category-staff_student_alumni,
+.category-staff_student_alumni a:link,
+.category-staff_student_alumni a:visited { background-color: var(--cityu-metallic-shadow-30); }
+.category-staff_student_alumni a:hover,
+.category-staff_student_alumni a:active { background-color: var(--cityu-metallic-shadow-10); }
+
+
+
 .category-about_cityu,
 .category-about_cityu a:link,
 .category-about_cityu a:visited { background-color: var(--cityu-primary-red-50); }
