@@ -145,6 +145,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-content ul,
 .post-content ol { padding-bottom: 21px; }
 .post-body { min-height: 120px; height: auto; display: block; overflow: auto; }
+.post-body strong { font-weight: var(--font-black_heavy); }
 .post-title::after,
 .post-content::after,
 .post-body::after,
