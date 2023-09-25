@@ -16,6 +16,13 @@ a:visited { text-decoration-style: dotted;  }
 a:link, a:visited { color: var(--cityu-metallic-black-30); }
 a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var(--cityu-secondary-lagoon-95); }
 
+hr {
+    height: 2px;
+    border-width: 0;
+    color: var(--cityu-metallic-black-40);
+    background-color: var(--cityu-metallic-black-40);
+}
+
 .container {
     /*position: relative;*/
     margin: auto;
@@ -115,10 +122,16 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 
 
 /* side */
-.side-left { float: left; }
-.side-left::after { clear: both; display: block; }
-.side-right { float: right; }
-.side-right::after { clear: both; display: block; }
+.side-left,
+.side-left_border-right { float: left; margin-top: 16px; }
+.side-left::after,
+.side-left_border-right::after { clear: both; display: block; }
+.side-left_border-right { padding-right: 6px; border-right: solid 2px var(--cityu-metallic-black-40); }
+.side-right,
+.side-right_border-left { float: right; margin-top: 16px; }
+.side-right::after,
+.side-right_border-left::after { clear: both; display: block; }
+.side-right_border-left { padding-left: 6px; border-left: solid 2px var(--cityu-metallic-black-40); }
 .linebreak { clear: both; }
 .horizontal-separator-space { clear: both; height: 24px; }
 
@@ -219,7 +232,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
     width: 100%;
     min-height: 24px;
     padding-top: 8px;
-    margin-top: 32px;
+    margin-top: 16px;
     margin-bottom: 16px;
     color: #FFFFFF;
 }

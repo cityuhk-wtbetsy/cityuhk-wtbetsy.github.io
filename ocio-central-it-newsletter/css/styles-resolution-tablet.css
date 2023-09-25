@@ -45,7 +45,12 @@
 
 
     /* side */
-    .side-left, .side-right { float: none; clear: both; }
+    .side-left,
+    .side-left_border-right,
+    .side-right,
+    .side-right_border-left { float: none; clear: both; margin-top: 0; }
+    .side-left_border-right { padding-right: 0; border-right: 0; }
+    .side-right_border-left { padding-left: 0; border-left: 0; }
 
 
 
