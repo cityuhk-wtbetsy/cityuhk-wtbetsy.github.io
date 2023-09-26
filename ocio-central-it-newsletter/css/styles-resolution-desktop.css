@@ -34,6 +34,12 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
     height: 100%;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
@@ -159,6 +165,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-content p { padding-top: 8px; padding-bottom: 8px; }
 .post-content h2 { font-size: 21px; font-weight: var(--font-semibold); margin-top: 12px; padding-bottom: 8px; }
 .post-content h2 img.h2-icon { width: 32px; height: auto; margin-top: 16px; margin-right: 8px; }
+.post-content .img-caption { font-size: 14px; font-style: italic; padding-bottom: 16px; }
 .post-content ul,
 .post-content ol { padding-bottom: 21px; }
 .post-body { min-height: 120px; height: auto; display: block; overflow: auto; }
@@ -173,6 +180,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 
 .post-col8,
 .post-col8-width100,
+.post-col8-img80,
 .post-col8-imageheader,
 .post-col8-borderbox { width: 624px; display: block; padding-bottom: 24px; }
 
@@ -183,12 +191,16 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 .post-col8 .post-image img { width: 280px; border: solid 4px var(--cityu-metallic-black-80); }
 .post-col8::after { clear: both; display: block; }
 
-.post-col8-width100 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
-.post-col8-width100 .post-text { width: 100%; }
-.post-col8-width100 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
+.post-col8-width100 .post-body,
+.post-col8-img80 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+.post-col8-width100 .post-text,
+.post-col8-img80 .post-text { width: 100%; }
+.post-col8-width100 .post-text ul,
+.post-col8-img80 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
 .post-col8-width100 .post-image img { width: 100%; border: solid 4px var(--cityu-metallic-black-80); }
-/*.post-col8-width100 .post-image img.pointNext { margin-top: -24px; }*/
-.post-col8-width100::after { clear: both; display: block; }
+.post-col8-img80 .post-image img { width: 80%; margin-left: 10%; margin-right: 10%; border: solid 4px var(--cityu-metallic-black-80); }
+.post-col8-width100::after,
+.post-col8-img80::after { clear: both; display: block; }
 
 .post-col8-imageheader .post-body { width: 100%; margin-right: 24px; }
 .post-col8-imageheader .post-image { float: left; width: 312px; padding-top: 12px; padding-bottom: 12px; background-color: var(--cityu-metallic-black-30); }

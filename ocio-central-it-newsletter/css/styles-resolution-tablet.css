@@ -70,12 +70,15 @@
 
     .post-col8,
     .post-col8-width100,
+    .post-col8-img80,
     .post-col8-imageheader,
     .post-col8-borderbox { width: auto; }
     /*.post-body { margin-left: 16px; margin-right: 16px; }*/
     .post-col8 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
     .post-col8-width100 .post-image img { max-width: 536px; }
     .post-col8-width100 .pointNext img { max-width: 576px; }
+    .post-col8-img80 .post-image img { max-width: 460px; }
+    .post-col8-img80 .pointNext img { max-width: 500px; }
     .post-col8-imageheader .post-body { width: auto; margin-left: 0; margin-right: 5%; }
     .post-col8 .post-image,
     .post-col8-imageheader .post-image  { width: 50%; }
