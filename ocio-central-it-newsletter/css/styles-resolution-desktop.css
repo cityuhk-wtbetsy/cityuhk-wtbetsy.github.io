@@ -266,7 +266,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
     margin-bottom: 16px;
     color: #FFFFFF;
 }
-.post-category h6 { margin-left: 12px; font-size: 12px; font-weight: var(--font-bold); }
+.post-category h6 { margin-left: 12px; font-size: 14px; font-weight: var(--font-bold); }
 .post-category a:link,
 .post-category a:hover,
 .post-category a:active,
