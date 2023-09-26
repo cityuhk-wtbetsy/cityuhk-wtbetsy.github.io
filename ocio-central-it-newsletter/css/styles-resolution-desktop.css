@@ -16,13 +16,6 @@ a:visited { text-decoration-style: dotted;  }
 a:link, a:visited { color: var(--cityu-metallic-black-30); }
 a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var(--cityu-secondary-lagoon-95); }
 
-hr {
-    height: 2px;
-    border-width: 0;
-    color: var(--cityu-metallic-black-40);
-    background-color: var(--cityu-metallic-black-40);
-}
-
 .container {
     /*position: relative;*/
     margin: auto;
@@ -142,6 +135,17 @@ hr {
 .posts { color: var(--cityu-metallic-black-20); /*width: 944px;*/ }
 .posts img { height: auto; }
 .posts::after { clear: both; display: block; }
+
+
+.posts hr {
+    height: 2px;
+    border-width: 0;
+    color: var(--cityu-metallic-black-40);
+    background-color: var(--cityu-metallic-black-40);
+}
+
+
+
 .post-title {
     font-size: 26px;
     font-weight: var(--font-bold);
@@ -228,6 +232,32 @@ hr {
 
 
 
+.post-col6,
+.post-col6-width100,
+.post-col6-img60 { width: 464px; display: block; padding-bottom: 24px; }
+
+.post-col6 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+.post-col6 .post-text { float: left; width: 280px; }
+.post-col6 .post-text ul { padding-left: 24px; padding-right: 24px; }
+.post-col6 .post-image { float: left; width: 280px; margin-left: 8px; margin-right: 0; }
+.post-col6 .post-image img { width: 280px; border: solid 4px var(--cityu-metallic-black-80); }
+.post-col6::after { clear: both; display: block; }
+
+.post-col6-width100 .post-body,
+.post-col6-img60 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+.post-col6-width100 .post-text,
+.post-col6-img60 .post-text { width: 100%; }
+.post-col6-width100 .post-text ul,
+.post-col6-img60 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
+.post-col6-width100 .post-image img { width: 100%; margin-left: auto; margin-right: auto; border: solid 4px var(--cityu-metallic-black-80); }
+.post-col6-img60 .post-image img { width: 60%; margin-left: 20%; margin-right: 20%; border: solid 4px var(--cityu-metallic-black-80); }
+.post-col6-width100::after,
+.post-col6-img60::after { clear: both; display: block; }
+
+
+
+
+
 .post-category {
     width: 100%;
     min-height: 24px;
@@ -266,9 +296,9 @@ hr {
 
 .category-staff_student,
 .category-staff_student a:link,
-.category-staff_student a:visited { background-color: var(--cityu-secondary-purple-30); }
+.category-staff_student a:visited { background-color: var(--cityu-secondary-purple-40); }
 .category-staff_student a:hover,
-.category-staff_student a:active { background-color: var(--cityu-secondary-purple-10); }
+.category-staff_student a:active { background-color: var(--cityu-secondary-purple-20); }
 
 .category-student_alumni,
 .category-student_alumni a:link,
