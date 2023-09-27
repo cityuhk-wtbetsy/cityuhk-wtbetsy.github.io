@@ -60,6 +60,15 @@
 
     .posts hr { height: 0; }
 
+    .posts hr.lineShow, .posts hr.lineShowMobile {
+        height: 2px;
+        border-width: 0;
+        color: var(--cityu-metallic-black-40);
+        background-color: var(--cityu-metallic-black-40);
+    }
+    .posts hr.lineShowDesktop { visibility: hidden; }
+    .posts hr.lineShowMobile { visibility: visible; }
+
 
     .post-title { font-size: 22px; }
     .post-content { font-size: 16px; }
@@ -68,13 +77,32 @@
     .post-content li { padding-top: 8px; }
     */
 
+
+    .post-image-width60 { min-width: 300px; margin-left: auto; margin-right: auto; }
+
+
+
+    .headline { margin-left: -24px; font-size: 28px; padding-left: 24px; padding-right: 24px; }
+    .sub-headline { font-size: 24px; }
+
+    .post-col12-byside .post-body,
+    .post-col12-byside_imgSmaller .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col12-byside .post-image { max-width: 50%; }
+    .post-col12-byside .post-image img { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
+    .post-col12-byside .post-text { max-width: 48%; }
+    .post-col12-byside_imgSmaller .post-image { max-width: 30%; }
+    .post-col12-byside_imgSmaller .post-image img { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
+    .post-col12-byside_imgSmaller .post-text { max-width: 68%; }
+
     .post-col8,
     .post-col8-width100,
     .post-col8-img80,
     .post-col8-imageheader,
     .post-col8-borderbox { width: auto; }
     /*.post-body { margin-left: 16px; margin-right: 16px; }*/
-    .post-col8 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col8 .post-body,
+    .post-col8-width100 .post-body,
+    .post-col8-img80 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
     .post-col8-width100 .post-image img { max-width: 536px; }
     .post-col8-width100 .pointNext img { max-width: 576px; }
     .post-col8-img80 .post-image img { max-width: 460px; }
@@ -110,6 +138,12 @@
     .post-col4-background-inverse .post-content { width: auto; margin-left: 5%; margin-right: 5%; }
 
 
+    .post-col4-mobile100 { width: auto; }
+    .post-col4-mobile100 .post-title { text-align: left;  }
+    .post-col4-mobile100 .post-text ul { padding-left: 8px; }
+    .post-col4-mobile100 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+
+
     .post-col6,
     .post-col6-width100,
     .post-col6-img60 { width: auto; }
@@ -120,6 +154,10 @@
     .post-col6-width100 .pointNext img { max-width: 576px; }
     .post-col6-img60 .post-image img { max-width: 216px; }
     .post-col6-img60 .pointNext img { max-width: 256px; }
+
+
+
+
 
     .post-category { margin-top: 16px; }
 

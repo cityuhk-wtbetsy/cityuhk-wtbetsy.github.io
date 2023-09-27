@@ -68,6 +68,10 @@
     .post-content ol { padding-bottom: 16px; }
     .pointNext { margin-top: -16px !important; }
 
+
+    .headline { margin-left: -8px; font-size: 21px; padding-left: 8px; padding-right: 8px; padding-top: 8px; box-shadow: 6px 4px var(--cityu-primary-darkred-30); }
+    .sub-headline { font-size: 18px; }
+
     .post-col8 .post-text,
     .post-col8 .post-image,
     .post-col8-imageheader .post-image,
@@ -101,6 +105,7 @@
      */
     .post-col4 .post-image,
     .post-col4-background-inverse .post-image { max-width: 300px; margin-left: auto; margin-right: auto; }
+    .post-col4-mobile100 .post-body { margin-left: 24px; }
 
 
     #footer-central-it,
