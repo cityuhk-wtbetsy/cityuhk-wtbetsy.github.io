@@ -55,9 +55,11 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
     position: relative;
     float: left;
     z-index: 100;
-    width: 80px;
+    width: 240px;
     height: 48px;
-    background-image: url(../images/ui/desktop/header-logo-cityu_black.png);
+    background-image: url(../images/logos/cityu_horizontal_black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
     cursor: pointer;
 }
 .top-cityu-logo::after { clear: both; display: block; }
