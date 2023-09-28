@@ -42,7 +42,7 @@
         font-size: 16px;
     }
 
-    .top-dept { left: 400px; }
+    .top-dept { left: 100%; margin-left: -248px; }
 
 
 

@@ -17,13 +17,15 @@
     }
 
     .top-cityu-logo {
-        width: 120px;
+        width: 40px;
         height: 24px;
-        background-size: 120px 24px;
+        background-image: url(../images/logos/cityu_simple_black_37x24.png);
     }
 
     .top-dept {
+        left: 50%;
         margin-left: -56px;
+        margin-top: 0;
         width: 112px;
         height: 20px;
     }

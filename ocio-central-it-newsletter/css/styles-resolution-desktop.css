@@ -48,16 +48,16 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
 
 .top-cityu-dept {
     width: 100%;
-    height: 48px;
+    height: 96px;
 }
 
 .top-cityu-logo {
     position: relative;
     float: left;
     z-index: 100;
-    width: 240px;
-    height: 48px;
-    background-image: url(../images/logos/cityu_horizontal_black.svg);
+    width: 150px;
+    height: 96px;
+    background-image: url(../images/logos/cityu_vertical_black_150x96.png);
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -71,6 +71,7 @@ a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var
     margin-left: -112px;
     width: 224px;
     height: 40px;
+    margin-top: 50px;
 }
 .top-dept-ocio, .top-dept-csc, .top-dept-esu, .top-dept-separator { height: 40px; float: left; }
 .top-dept-ocio::after,
