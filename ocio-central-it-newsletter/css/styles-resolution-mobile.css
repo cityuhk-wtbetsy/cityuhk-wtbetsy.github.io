@@ -74,6 +74,11 @@
     .headline { margin-left: -8px; font-size: 21px; padding-left: 8px; padding-right: 8px; padding-top: 8px; box-shadow: 6px 4px var(--cityu-primary-darkred-30); }
     .sub-headline { font-size: 18px; }
 
+    .post-col12-byside .post-text { max-width: 58%; }
+    .post-col12-byside .post-image { max-width: 38%; }
+    .post-col12-byside .post-image img {  max-width: 100%; margin-left: 0; margin-right: 0; }
+    .post-col12-byside_imgSmaller .post-image img { max-width: 100%; margin-left: 0; margin-right: 0; }
+
     .post-col8 .post-text,
     .post-col8 .post-image,
     .post-col8-imageheader .post-image,
