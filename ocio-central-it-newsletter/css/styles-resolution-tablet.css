@@ -172,6 +172,29 @@
     #footer-central-it h2 { font-size: 18px; padding-top: 24px; }
     #footer-central-it h3 { font-size: 16px; padding-top: 20px; }
 
+
+    #footerArea { padding-bottom: 80px; }
+
+
+
+
+    .back-to-top {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .back-to-top.show {
+        bottom: 10px;
+        right: 10px;
+    }
+    .back-to-top.show:hover {
+        bottom: 10px;
+    }
+    .arrow {
+        top: 20%;
+        left: 34%;
+    }
+
     /*
     #footer-central-it p,
     #footer-central-it table.footer-contact { font-size: 12px; }

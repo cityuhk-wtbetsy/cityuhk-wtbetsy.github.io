@@ -9,8 +9,45 @@
     <title>CityU Central IT Newsletter</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" >
     <script src="script/main.js"></script>
+    <script src="script/jquery.min.js"></script>
 </head>
 <body>
+
+
+
+
+
+<!-- ############################################# -->
+<!-- ################ back to top ################ -->
+<!-- ############################################# -->
+<a href="javascript:void(0);" id="backToTop" class="back-to-top">
+    <i class="arrow"></i><i class="arrow"></i>
+</a>
+<script>
+var btn = $('#backToTop');
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
+});
+btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: 0
+    }, '300');
+});
+</script>
+<!-- ############################################# -->
+<!-- ############# (end) back to top ############# -->
+<!-- ############################################# -->
+
+
+
+
+
+
 
 <div class="container">
 
