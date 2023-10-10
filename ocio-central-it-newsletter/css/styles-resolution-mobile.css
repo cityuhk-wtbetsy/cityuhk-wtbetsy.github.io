@@ -59,6 +59,9 @@
         font-weight: var(--font-medium);
     }
 
+    #panel-volumes .dropdown { float: left; }
+    #panel-volumes .dropbtn, #panel-volumes #volInput, #panel-volumes .dropdown-content { font-size: 14px; }
+
 
     /* post */
     .post-title { font-size: 18px; }
