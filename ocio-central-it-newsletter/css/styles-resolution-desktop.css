@@ -129,14 +129,75 @@ code {
 }
 .top-header-volume::after { clear: both; display: block; }
 
-.panel-volumes {
-    margin-top: 16px;
-    margin-left: -32px;
-    width: 1008px;
-    min-height: 48px;
-    background-color: var(--cityu-metallic-black-40);
-}
 
+
+
+
+/* selection panel of past volumes */
+
+#panel-volumes {
+    margin-top: 4px;
+    width: 100%;
+    min-height: 40px;
+}
+#panel-volumes .dropbtn {
+    background-color: var(--cityu-secondary-blue-30);
+    color: #FFFFFF;
+    font-weight: var(--font-semibold);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 180px;
+}
+#panel-volumes .dropbtn:hover, #panel-volumes .dropbtn:focus {
+    background-color: var(--cityu-secondary-blue-30);
+    border-left: none;
+    border-right: none;
+    color: var(--cityu-metallic-black-95);
+}
+#panel-volumes #volInput {
+    box-sizing: border-box;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 12px 8px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 8px 8px 8px 40px;
+    border: none;
+    border-bottom: 1px solid var(--cityu-metallic-black-80);
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 170px;
+    color: var(--cityu-secondary-blue-20);
+}
+#panel-volumes #volInput:focus { outline: 2px solid var(--cityu-secondary-blue-60); }
+#panel-volumes .dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 180px;
+    border-bottom: solid 4px var(--cityu-secondary-blue-20);
+    box-sizing: border-box;
+}
+#panel-volumes .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--cityu-metallic-black-95);
+    width: 178px;
+    max-height: 200px;
+    overflow: auto;
+    border: 1px solid var(--cityu-metallic-black-80);
+    z-index: 1;
+}
+#panel-volumes .dropdown-content a {
+    color: var(--cityu-secondary-blue-20);
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+}
+#panel-volumes .dropdown a:hover { background-color: var(--cityu-secondary-blue-20); color: var(--cityu-metallic-black-95); }
+#panel-volumes .show { display: block; }
 
 
 
@@ -153,6 +214,9 @@ code {
 .side-right_border-left { padding-left: 6px; border-left: solid 2px var(--cityu-metallic-black-40); }
 .linebreak { clear: both; }
 .horizontal-separator-space { clear: both; height: 24px; }
+
+
+
 
 
 
