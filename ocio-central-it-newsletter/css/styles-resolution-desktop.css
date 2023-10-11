@@ -142,22 +142,33 @@ code {
 }
 #panel-volumes .dropbtn {
     background-color: var(--cityu-secondary-blue-30);
+    border: solid 4px var(--cityu-secondary-blue-20);
+    border-radius: 24px;
+    box-sizing: border-box;
     color: #FFFFFF;
     font-weight: var(--font-semibold);
-    padding: 10px;
+    padding: 4px;
     font-size: 16px;
     cursor: pointer;
-    width: 180px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+#panel-volumes .dropbtn:hover {
+    background-color: var(--cityu-secondary-blue-20);
+    border: solid 4px var(--cityu-secondary-blue-30);
+}
+#panel-volumes .dropbtn img { width: 24px; height: auto; }
+/*
 #panel-volumes .dropbtn:hover, #panel-volumes .dropbtn:focus {
-    background-color: var(--cityu-secondary-blue-30);
-    border-left: none;
-    border-right: none;
-    color: var(--cityu-metallic-black-95);
+    background-color: var(--cityu-secondary-blue-20);
 }
+*/
 #panel-volumes #volInput {
     box-sizing: border-box;
-    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    /*background-image: url('https://www.w3schools.com/howto/searchicon.png');*/
+    background-image: url('images/ui/graphic_icon-volume-search_24x24.png');
     background-position: 12px 8px;
     background-repeat: no-repeat;
     font-size: 16px;
@@ -167,7 +178,7 @@ code {
     margin-left: 4px;
     margin-top: 4px;
     margin-bottom: 4px;
-    width: 170px;
+    width: 190px;
     color: var(--cityu-secondary-blue-20);
 }
 #panel-volumes #volInput:focus { outline: 2px solid var(--cityu-secondary-blue-60); }
@@ -175,18 +186,18 @@ code {
     position: relative;
     display: inline-block;
     float: right;
-    width: 180px;
-    border-bottom: solid 4px var(--cityu-secondary-blue-20);
+    width: 200px;
+    /*border-bottom: solid 4px var(--cityu-secondary-blue-20);*/
     box-sizing: border-box;
 }
 #panel-volumes .dropdown-content {
     display: none;
     position: absolute;
     background-color: var(--cityu-metallic-black-95);
-    width: 178px;
+    width: 198px;
     max-height: 200px;
     overflow: auto;
-    border: 1px solid var(--cityu-metallic-black-80);
+    border: 2px solid var(--cityu-metallic-black-80);
     z-index: 1;
 }
 #panel-volumes .dropdown-content a {
