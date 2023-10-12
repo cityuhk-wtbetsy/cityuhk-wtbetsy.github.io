@@ -1,13 +1,34 @@
 // JavaScript
-/*
-const divVolume = document.getElementById("top-header-volume");
-divVolume.addEventListener("click", e=> {
-    e.preventDefault();
-})
-*/
 
 
 
+// dropdown list of previous issues
+
+function pastVolume() {
+    document.getElementById("volDropdown").classList.toggle('show');
+}
+
+function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("volInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("volDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            a[i].style.display = "";
+        } else {
+            a[i].style.display = "none";
+        }
+    }
+}
+
+
+
+
+
+// include external HTML code
 
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
@@ -36,3 +57,17 @@ function includeHTML() {
     }
   }
 };
+
+
+
+
+
+
+
+
+/*
+const divVolume = document.getElementById("top-header-volume");
+divVolume.addEventListener("click", e=> {
+    e.preventDefault();
+})
+*/
