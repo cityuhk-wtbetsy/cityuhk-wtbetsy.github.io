@@ -59,16 +59,25 @@
         font-weight: var(--font-medium);
     }
 
-    #panel-volumes .dropdown { width: 160px; float: left; }
-    #panel-volumes .dropbtn, #panel-volumes #volInput, #panel-volumes .dropdown-content { font-size: 12px; }
-    #panel-volumes .dropbtn { width: 160px; border: solid 3px var(--cityu-secondary-blue-20); }
+    #panel-volumes .dropdown { width: 150px; margin-top: -12px; }
+    #panel-volumes .dropbtn { font-size: 12px; }
+    #panel-volumes .dropdown-content, #panel-volumes #volInput { font-size: 14px; }
+    #panel-volumes .dropbtn {
+        width: 150px;
+        border-top: solid 1px var(--cityu-secondary-blue-20);
+        border-left: solid 1px var(--cityu-secondary-blue-20);
+        border-bottom: solid 3px var(--cityu-secondary-blue-20);
+        border-right: solid 3px var(--cityu-secondary-blue-20);
+        border-radius: 6px;
+    }
     #panel-volumes .dropbtn:hover { border: solid 3px var(--cityu-secondary-blue-30); }
     #panel-volumes .dropbtn img { width: 20px; }
-    #panel-volumes #volInput { background-position: 8px 4px; width: 150px; padding-left: 34px; }
-    #panel-volumes .dropdown-content { width: 158px; max-height: 180px; }
+    #panel-volumes #volInput { background-position: 8px 6px; background-size: 16px 16px; width: 140px; padding-left: 28px; }
+    #panel-volumes .dropdown-content { width: 148px; max-height: 190px; }
 
 
     /* post */
+    .posts { margin-top: -32px; }
     .post-title { font-size: 18px; }
     .post-content { font-size: 14px; }
     .post-content h2 { font-size: 16px; padding-bottom: 4px; }
