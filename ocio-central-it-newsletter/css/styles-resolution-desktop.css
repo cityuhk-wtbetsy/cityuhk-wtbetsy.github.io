@@ -160,7 +160,7 @@ code {
     align-items: center;
     justify-content: center;
 }
-#panel-volumes .dropbtn:hover {
+#panel-volumes .dropbtn:active {
     background-color: var(--cityu-secondary-blue-20);
     border: solid 4px var(--cityu-secondary-blue-30);
 }
