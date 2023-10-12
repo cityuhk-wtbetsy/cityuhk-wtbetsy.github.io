@@ -63,56 +63,13 @@ btn.on('click', function(e) {
 <div class="top-header">
 <div class="top-header-title" onclick="location.href='index.html'"></div>
 <div class="top-header-volume">Dec 2023</div>
-</div><!-- (end) top panel: title and volume of Central IT Newsletter -->
-
-
-
-<!-- past volumes -->
-<div id="panel-volumes">
-<div class="dropdown">
-  <button onclick="pastVolume()" class="dropbtn"><img src="images/ui/graphic_icon-white-papers.svg" alt="">&nbsp;&nbsp;previous issues</button>
-  <div id="volDropdown" class="dropdown-content">
-    <input type="text" placeholder="month or year......" id="volInput" onkeyup="filterFunction()">
-    <a href="volume-202309.html">September 2023</a>
-    <a href="#">June 2023</a>
-    <a href="#">March 2023</a>
-    <a href="#">December 2022</a>
-    <a href="#">September 2022</a>
-  </div>
 </div>
-</div>
-<script>
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function pastVolume() {
-    document.getElementById("volDropdown").classList.toggle("show");
-}
-
-function filterFunction() {
-    var input, filter, ul, li, a, i;
-    input = document.getElementById("volInput");
-    filter = input.value.toUpperCase();
-    div = document.getElementById("volDropdown");
-    a = div.getElementsByTagName("a");
-    for (i = 0; i < a.length; i++) {
-        txtValue = a[i].textContent || a[i].innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            a[i].style.display = "";
-        } else {
-            a[i].style.display = "none";
-        }
-    }
-}
+<div class="linebreak"></div>
+<!-- (end) top panel: title and volume of Central IT Newsletter -->
 
 
 
-
-
-
-
-</script>
-
-<!-- (end) past volumes -->
+<div w3-include-html="include/issue-list.html"></div>
 
 
 
