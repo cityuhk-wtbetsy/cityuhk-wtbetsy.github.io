@@ -155,7 +155,7 @@ code {
     padding: 4px;
     font-size: 16px;
     cursor: pointer;
-    width: 180px;
+    width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,7 +178,7 @@ code {
     margin-left: 4px;
     margin-top: 4px;
     margin-bottom: 4px;
-    width: 170px;
+    width: 190px;
     color: var(--cityu-secondary-blue-20);
 }
 #panel-volumes #volInput:focus { outline: 2px solid var(--cityu-secondary-blue-60); }
@@ -186,14 +186,14 @@ code {
     position: relative;
     display: inline-block;
     float: right;
-    width: 180px;
+    width: 200px;
     box-sizing: border-box;
 }
 #panel-volumes .dropdown-content {
     display: none;
     position: absolute;
     background-color: var(--cityu-metallic-black-95);
-    width: 178px;
+    width: 198px;
     max-height: 200px;
     overflow: auto;
     border: 2px solid var(--cityu-metallic-black-80);
