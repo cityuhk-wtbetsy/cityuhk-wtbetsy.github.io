@@ -1,10 +1,17 @@
 @charset "UTF-8";
-
-
 @media only screen and (max-width:1024px) {
-    /* */
+
+
+
+
 
     body { background-color: #FFFFFF; }
+
+
+
+
+
+    /* major areas */
 
     .container {
         border: none;
@@ -20,7 +27,8 @@
 
 
 
-    /* header */
+
+    /* header area */
 
     .top-header {
         height: 58px;
@@ -46,7 +54,9 @@
 
 
 
-    /* side */
+
+
+    /* side  - one-column display in tablet resolution */
     .side-left,
     .side-left_border-right,
     .side-right,
@@ -57,11 +67,10 @@
 
 
 
-    /* post */
 
+    /* post horizontal line separator */
 
     .posts hr { height: 0; }
-
     .posts hr.lineShow, .posts hr.lineShowMobile {
         height: 2px;
         border-width: 0;
@@ -72,20 +81,30 @@
     .posts hr.lineShowMobile { visibility: visible; }
 
 
+
+
+
+    /* post default styles */
+
     .post-title { font-size: 22px; }
     .post-content { font-size: 16px; }
     .post-content h2 { font-size: 18px; }
-    /*
-    .post-content li { padding-top: 8px; }
-    */
-
-
     .post-image-width60 { min-width: 300px; margin-left: auto; margin-right: auto; }
 
 
 
+
+
+    /* headline and sub-headline styles */
+
     .headline { margin-left: -24px; font-size: 28px; padding-left: 24px; padding-right: 24px; }
     .sub-headline { font-size: 24px; }
+
+
+
+
+
+    /* post blocks with full of width */
 
     .post-col12-byside .post-body,
     .post-col12-byside_imgSmaller .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
@@ -96,12 +115,17 @@
     .post-col12-byside_imgSmaller .post-image img { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
     .post-col12-byside_imgSmaller .post-text { max-width: 65%; }
 
+
+
+
+
+    /* post blocks with two-thirds of width -> full of width */
+
     .post-col8,
     .post-col8-width100,
     .post-col8-img80,
     .post-col8-imageheader,
     .post-col8-borderbox { width: auto; }
-    /*.post-body { margin-left: 16px; margin-right: 16px; }*/
     .post-col8 .post-body,
     .post-col8-width100 .post-body,
     .post-col8-img80 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
@@ -125,6 +149,11 @@
     .post-col8-imageheader .post-image img { margin-top: 12px; }
 
 
+
+
+
+    /* post blocks with one-thirds of width -> full of width */
+
     .post-col4_odd { float: left; }
     .post-col4_even { float: right; }
     .post-col4_odd,
@@ -138,13 +167,16 @@
     .post-col4-background-inverse .post-image { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
     .post-col4-background-inverse .post-title,
     .post-col4-background-inverse .post-content { width: auto; margin-left: 5%; margin-right: 5%; }
-
-
     .post-col4-mobile100 { width: auto; }
     .post-col4-mobile100 .post-title { text-align: left;  }
     .post-col4-mobile100 .post-text ul { padding-left: 8px; }
     .post-col4-mobile100 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
 
+
+
+
+
+    /* post blocks with half of width -> full of width */
 
     .post-col6,
     .post-col6-width100,
@@ -161,8 +193,7 @@
 
 
 
-    .post-category { margin-top: 16px; }
-
+    /* footer */
 
     #footer { width: 100% }
     #footer hr { width: auto; margin-left: 16px; margin-right: 16px; }
@@ -171,12 +202,12 @@
     #footer-central-it h1 { font-size: 21px; padding-top: 28px; }
     #footer-central-it h2 { font-size: 18px; padding-top: 24px; }
     #footer-central-it h3 { font-size: 16px; padding-top: 20px; }
-
-
     #footerArea { padding-bottom: 80px; }
 
 
 
+
+    /* Back to Top */
 
     .back-to-top {
         width: 40px;
@@ -195,9 +226,10 @@
         left: 34%;
     }
 
-    /*
+    /* (not used)
     #footer-central-it p,
     #footer-central-it table.footer-contact { font-size: 12px; }
+    .post-category { margin-top: 16px; }
     */
 }
 
