@@ -26,16 +26,16 @@
     --font-extrablack_ultrablack: 950;
 
     /* Metallic Colours - Black */
-    --cityu-metallic-black-10: #1C1C1B; /* [key colour], link (hover) */
-    --cityu-metallic-black-20: #333332;
-    --cityu-metallic-black-30: #494948; /* link, code text, header line, volume background */
-    --cityu-metallic-black-40: #60605F;
+    --cityu-metallic-black-10: #1C1C1B; /* [key colour], post link text (hover), footer horizontal shadow line */
+    --cityu-metallic-black-20: #333332; /* post text (default), footer background */
+    --cityu-metallic-black-30: #494948; /* post link text, code text, header line, header volume background, footer horizontal light line */
+    --cityu-metallic-black-40: #60605F; /* post line separator */
     --cityu-metallic-black-50: #777776;
-    --cityu-metallic-black-60: #8E8E8D;
+    --cityu-metallic-black-60: #8E8E8D; /* sub-headline border */
     --cityu-metallic-black-70: #A4A4A3;
-    --cityu-metallic-black-80: #BBBBBA;
+    --cityu-metallic-black-80: #BBBBBA; /* archive input field bottom border, archive dropdown background border, post image border, footer text */
     --cityu-metallic-black-90: #D2D2D1;
-    --cityu-metallic-black-95: #E8E8E8; /* code background */
+    --cityu-metallic-black-95: #E8E8E8; /* code background, archive dropdown background, archive dropdown item (hover) text */
 
     /* Metallic Colours - Oslo Gray (Pantone 877C) */
     --cityu-metallic-oslogray-10: #242424;
@@ -76,9 +76,9 @@
     /* Primary Colours - CityU Dark Red */
     --cityu-primary-darkred-10: #15060C;
     --cityu-primary-darkred-20: #2B0D19;
-    --cityu-primary-darkred-30: #401325;
+    --cityu-primary-darkred-30: #401325; /* headline shadow */
     --cityu-primary-darkred-40: #561A32;
-    --cityu-primary-darkred-50: #6B203E; /* [key colour] */
+    --cityu-primary-darkred-50: #6B203E; /* [key colour], headline background */
     --cityu-primary-darkred-60: #84455E;
     --cityu-primary-darkred-70: #9C6A7E;
     --cityu-primary-darkred-80: #B5909F;
@@ -111,11 +111,11 @@
 
     /* Secondary Colours - Blue (Pantone 7461C) */
     --cityu-secondary-blue-10: #001D2A;
-    --cityu-secondary-blue-20: #003A54;
-    --cityu-secondary-blue-30: #00567D;
+    --cityu-secondary-blue-20: #003A54; /* archive dropdown button border, archive input text, archive dropdown text, archive dropdown item (hover) background */
+    --cityu-secondary-blue-30: #00567D; /* archive dropdown button background */
     --cityu-secondary-blue-40: #0073A7;
     --cityu-secondary-blue-50: #0090D1; /* [key colour] */
-    --cityu-secondary-blue-60: #2BA3D9;
+    --cityu-secondary-blue-60: #2BA3D9; /* archive input field border (focus) */
     --cityu-secondary-blue-70: #55B5E0;
     --cityu-secondary-blue-80: #80C8E8;
     --cityu-secondary-blue-90: #AADAF0;
@@ -148,7 +148,7 @@
     /* Secondary Colours - Lagoon (Pantone 7474C) */
     --cityu-secondary-lagoon-10: #001D21;
     --cityu-secondary-lagoon-20: #003941;
-    --cityu-secondary-lagoon-30: #005662;
+    --cityu-secondary-lagoon-30: #005662; /* sub-headline text */
     --cityu-secondary-lagoon-40: #007282;
     --cityu-secondary-lagoon-50: #008FA3; /* [key colour] */
     --cityu-secondary-lagoon-60: #2BA2B2;
