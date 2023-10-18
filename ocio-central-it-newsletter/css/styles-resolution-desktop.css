@@ -9,14 +9,6 @@ body {
     background-color: var(--cityu-secondary-spicymix-95);
 }
 
-a:link,
-a:hover,
-a:active,
-a:visited { text-decoration-style: dotted;  }
-a:link, a:visited { color: var(--cityu-metallic-black-30); }
-a:hover, a:active { color: var(--cityu-metallic-black-10); background-color: var(--cityu-secondary-lagoon-95); }
-
-
 code {
     font-family: Monaco, monospace;
     color: var(--cityu-metallic-black-30);
@@ -24,6 +16,12 @@ code {
     padding-left: 4px;
     padding-right: 4px;
 }
+
+
+
+
+
+/* major areas */
 
 .container {
     margin: auto;
@@ -46,12 +44,14 @@ code {
     margin-left: auto;
     margin-right: auto;
 }
+.linebreak { clear: both; }
+.horizontal-separator-space { clear: both; height: 24px; }
 
 
 
 
 
-/* header */
+/* header area */
 
 .top-cityu-dept {
     width: 100%;
@@ -70,7 +70,6 @@ code {
     cursor: pointer;
 }
 .top-cityu-logo::after { clear: both; display: block; }
-
 
 .top-dept {
     position: absolute;
@@ -133,7 +132,7 @@ code {
 
 
 
-/* selection panel of past volumes */
+/* selection panel of newspaper archive */
 
 #panel-volumes {
     margin-top: 4px;
@@ -172,7 +171,7 @@ code {
     font-size: 16px;
     padding: 8px 8px 8px 40px;
     border: none;
-    border-bottom: 1px solid var(--cityu-metallic-black-80);
+    border-bottom: 2px solid var(--cityu-metallic-black-80);
     margin-left: 4px;
     margin-top: 4px;
     margin-bottom: 4px;
@@ -209,7 +208,9 @@ code {
 
 
 
-/* side */
+
+
+/* side - display in desktop resolution */
 .side-left,
 .side-left_border-right { float: left; margin-top: 16px; }
 .side-left::after,
@@ -220,8 +221,6 @@ code {
 .side-right::after,
 .side-right_border-left::after { clear: both; display: block; }
 .side-right_border-left { padding-left: 6px; border-left: solid 2px var(--cityu-metallic-black-40); }
-.linebreak { clear: both; }
-.horizontal-separator-space { clear: both; height: 24px; }
 
 
 
@@ -230,10 +229,21 @@ code {
 
 /* post */
 
-.posts { color: var(--cityu-metallic-black-20); /*width: 944px;*/ }
+.posts { color: var(--cityu-metallic-black-20); }
 .posts img { height: auto; }
 .posts::after { clear: both; display: block; }
+.posts a:link,
+.posts a:hover,
+.posts a:active,
+.posts a:visited { text-decoration-style: dotted;  }
+.posts a:link, .posts a:visited { color: var(--cityu-metallic-black-30); }
+.posts a:hover, .posts a:active { color: var(--cityu-metallic-black-10); background-color: var(--cityu-secondary-lagoon-95); }
 
+
+
+
+
+/* post horizontal line separator */
 
 .posts hr {
     height: 2px;
@@ -246,6 +256,10 @@ code {
 .posts hr.lineShowMobile { visibility: hidden; }
 
 
+
+
+
+/* post default styles */
 
 .post-title {
     font-size: 24px;
@@ -281,7 +295,7 @@ code {
 
 
 
-
+/* headline and sub-headline styles */
 
 .headline {
     display: block;
@@ -301,7 +315,6 @@ code {
 }
 .headline::after { clear: both; display: block; }
 
-
 .sub-headline {
     padding-top: 16px;
     color: var(--cityu-secondary-lagoon-30);
@@ -312,6 +325,11 @@ code {
     border-right: solid 1px var(--cityu-metallic-black-60);
 }
 
+
+
+
+
+/* post blocks with full of width */
 
 .post-col12-byside,
 .post-col12-byside_imgSmaller { width: 100%; display: block; padding-bottom: 24px; }
@@ -330,6 +348,10 @@ code {
 .post-col12-byside_imgSmaller::after { clear: both; display: block; }
 
 
+
+
+
+/* post blocks with two-thirds of width */
 
 .post-col8,
 .post-col8-width100,
@@ -373,6 +395,11 @@ code {
 .post-col8-borderbox::after { clear: both; display: block; }
 
 
+
+
+
+/* post blocks with one-thirds of width */
+
 .post-col4_odd,
 .post-col4_even { float: none; padding-bottom: 24px; }
 
@@ -404,6 +431,10 @@ code {
 
 
 
+
+
+/* post blocks with half of width */
+
 .post-col6,
 .post-col6-width100,
 .post-col6-img60 { width: 464px; display: block; padding-bottom: 24px; }
@@ -430,8 +461,217 @@ code {
 
 
 
+/* footer */
+
+#footerArea {
+	width: 100%;
+	background-color: var(--cityu-metallic-black-20);
+	min-height: 320px;
+	margin: auto;
+	padding-bottom: 80px;
+}
+
+#footer {
+	width: 1008px;
+	margin: auto;
+	color: #FFFFFF;
+}
+#footer a:hover,
+#footer a:active { background: none; text-decoration: underline; }
+#footer hr {
+    border-top: solid 1px var(--cityu-metallic-black-10);
+    border-bottom: solid 1px var(--cityu-metallic-black-30);
+    border-right-style: initial;
+    border-right-color: initial;
+    border-left-style: initial;
+    border-left-color: initial;
+    clear: both;
+}
+
+#footer-central-it,
+#cityu-footer-container { width: 944px; margin-left: auto; margin-right: auto; }
+
+#footer-central-it { min-height: 80px; }
+#footer-central-it a:link,
+#footer-central-it a:hover,
+#footer-central-it a:visited,
+#footer-central-it a:active { color: #FFFFFF; }
+#footer-central-it a:link, #footer-central-it a:visited { text-decoration: none; }
+#footer-central-it a:hover, #footer-central-it a:active { text-decoration: underline; }
+#footer-central-it h1 { font-size: 24px; padding-top: 32px; }
+#footer-central-it h2 { font-size: 20px; padding-top: 24px; }
+#footer-central-it h3 { font-size: 18px; padding-top: 20px; }
+#footer-central-it p,
+#footer-central-it table.footer-contact { font-size: 14px; }
+#footer-central-it p { color: var(--cityu-metallic-black-80); }
+#footer-central-it table.footer-contact { margin-top: 8px; }
+#footer-central-it table.footer-contact th,
+#footer-central-it table.footer-contact td { padding-top: 4px; padding-bottom: 4px; }
+#footer-central-it table.footer-contact th { padding-right: 8px; }
+#footer-central-it table.footer-contact img { height: 16px; width: auto; }
+#footer-central-it .footer-specific { float: left; padding-top: 8px; width: 320px; height: 140px; margin-right: 32px; }
 
 
+
+
+
+/* from "//template.cityu.edu.hk/template/css/cityu.base.css" */
+
+#cityu-footer-column {overflow: hidden; clear: both; padding: 12px 0 15px 5px;font-size: 11px; color:#ffffff; }
+#cityu-footer-notes {float: left; margin-top: 24px;}
+#cityu-footer-links {padding-bottom: 5px;}
+#cityu-footer-links a {padding: 0 5px 0 0; color:#CCCCCC; text-decoration:none;}
+#cityu-footer-links a + a {padding-left: 5px; color:#CCCCCC;}
+#cityu-footer-links a:hover {text-decoration:underline; color:#FFFFFF;}
+#cityu-footer-icons {float: right;}
+#cityu-footer-icons a + a {padding-left: 10px;}
+#cityu-footer-credits {margin-top: 5px; color:#CCCCCC;}
+
+
+
+
+
+/* from "//www.cityu.edu.hk/cio/central-it/css/central-it.css" on 2015-07-06 */
+.central-it-wrapper {
+	float: left;
+	margin-left: 10px;
+}
+.central-it-wrapper img {
+	border: 0;
+}
+.central-it-logo {
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+.central-it-link {
+	display: block;
+	position: absolute;
+	top: 26px;
+	height: 16px;
+	border-radius: 5px;
+}
+.central-it-link:hover {
+	background-color: #fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+	filter: alpha(opacity=20);
+	-moz-opacity: 0.2;
+	-khtml-opacity: 0.2;
+	opacity: 0.2;
+	cursor: pointer;
+}
+.central-it-logo.black .central-it-link:hover {
+	background-color: #000;
+}
+.central-it-logo.color .central-it-link:hover {
+	background-color: #808080;
+}
+.central-it-link.ocio {
+	left: 0;
+	width: 38px;
+}
+.central-it-link.csc {
+	left: 42px;
+	width: 32px;
+}
+.central-it-link.esu {
+	left: 78px;
+	width: 31px;
+}
+.central-it-link a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+
+
+
+
+
+/* Back to Top */
+
+.back-to-top {
+    position: fixed;
+    bottom: -40px;
+    right: 40px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: var(--cityu-metallic-black-40);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.back-to-top:focus {
+    color: #fff;
+}
+.back-to-top.show {
+    bottom: 40px;
+    right: 40px;
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+.back-to-top.show:hover {
+    color: #fff;
+    bottom: 30px;
+    opacity: 1;
+    background-color: var(--cityu-metallic-black-40);
+}
+.arrow {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
+    position: absolute; width: 12px; height: 12px; background-size: contain;
+    transform: rotate(-90deg);
+    top: 30%;
+    left: 40%;
+}
+.arrow:nth-child(2){
+    top: 42%;
+}
+
+@keyframes bounceAlpha {
+    0% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
+    25%{opacity: 0; transform: rotate(-90deg) translateX(10px) scale(0.9);}
+    26%{opacity: 0; transform: rotate(-90deg) translateX(-10px) scale(0.9);}
+    55% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
+}
+
+.back-to-top:hover .arrow{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.back-to-top:hover .arrow:nth-child(2){
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+
+
+
+
+/* (not used) category tags */
+/*
 .post-category {
     width: 100%;
     min-height: 24px;
@@ -564,222 +804,4 @@ code {
 .category-web_development_and_hosting a:visited { background-color: var(--cityu-secondary-greenhaze-30); }
 .category-web_development_and_hosting a:hover,
 .category-web_development_and_hosting a:active { background-color: var(--cityu-secondary-greenhaze-20); }
-
-
-
-
-/* footer */
-
-#footerArea {
-	width: 100%;
-	background-color: var(--cityu-metallic-black-20);
-	min-height: 320px;
-	margin: auto;
-	padding-bottom: 80px;
-}
-
-
-
-#footer {
-	width: 1008px;
-	margin: auto;
-	color: #FFFFFF;
-}
-#footer a:hover,
-#footer a:active { background: none; text-decoration: underline; }
-
-#footer hr {
-    border-top: solid 1px var(--cityu-metallic-black-10);
-    border-bottom: solid 1px var(--cityu-metallic-black-30);
-    border-right-style: initial;
-    border-right-color: initial;
-    border-left-style: initial;
-    border-left-color: initial;
-    clear: both;
-}
-
-#footer-central-it,
-#cityu-footer-container { width: 944px; margin-left: auto; margin-right: auto; }
-
-
-#footer-central-it { min-height: 80px; }
-#footer-central-it a:link,
-#footer-central-it a:hover,
-#footer-central-it a:visited,
-#footer-central-it a:active { color: #FFFFFF; }
-#footer-central-it a:link, #footer-central-it a:visited { text-decoration: none; }
-#footer-central-it a:hover, #footer-central-it a:active { text-decoration: underline; }
-#footer-central-it h1 { font-size: 24px; padding-top: 32px; }
-#footer-central-it h2 { font-size: 20px; padding-top: 24px; }
-#footer-central-it h3 { font-size: 18px; padding-top: 20px; }
-#footer-central-it p,
-#footer-central-it table.footer-contact { font-size: 14px; }
-#footer-central-it p { color: var(--cityu-metallic-black-80); }
-#footer-central-it table.footer-contact { margin-top: 8px; }
-#footer-central-it table.footer-contact th,
-#footer-central-it table.footer-contact td { padding-top: 4px; padding-bottom: 4px; }
-#footer-central-it table.footer-contact th { padding-right: 8px; }
-#footer-central-it table.footer-contact img { height: 16px; width: auto; }
-#footer-central-it .footer-specific { float: left; padding-top: 8px; width: 320px; height: 140px; margin-right: 32px; }
-
-
-
-/* from "//template.cityu.edu.hk/template/css/cityu.base.css" */
-
-#cityu-footer-column {overflow: hidden; clear: both; padding: 12px 0 15px 5px;font-size: 11px; color:#ffffff; }
-#cityu-footer-notes {float: left; margin-top: 24px;}
-#cityu-footer-links {padding-bottom: 5px;}
-#cityu-footer-links a {padding: 0 5px 0 0; color:#CCCCCC; text-decoration:none;}
-#cityu-footer-links a + a {padding-left: 5px; color:#CCCCCC;}
-#cityu-footer-links a:hover {text-decoration:underline; color:#FFFFFF;}
-#cityu-footer-icons {float: right;}
-#cityu-footer-icons a + a {padding-left: 10px;}
-#cityu-footer-credits {margin-top: 5px; color:#CCCCCC;}
-
-/* end of cityu.base.css */
-
-
-/* from "//www.cityu.edu.hk/cio/central-it/css/central-it.css" on 2015-07-06 */
-.central-it-wrapper {
-	float: left;
-	margin-left: 10px;
-}
-.central-it-wrapper img {
-	border: 0;
-}
-.central-it-logo {
-	position: relative;
-	right: 0;
-	bottom: 0;
-}
-.central-it-link {
-	display: block;
-	position: absolute;
-	top: 26px;
-	height: 16px;
-	border-radius: 5px;
-}
-.central-it-link:hover {
-	background-color: #fff;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
-	filter: alpha(opacity=20);
-	-moz-opacity: 0.2;
-	-khtml-opacity: 0.2;
-	opacity: 0.2;
-	cursor: pointer;
-}
-.central-it-logo.black .central-it-link:hover {
-	background-color: #000;
-}
-.central-it-logo.color .central-it-link:hover {
-	background-color: #808080;
-}
-.central-it-link.ocio {
-	left: 0;
-	width: 38px;
-}
-.central-it-link.csc {
-	left: 42px;
-	width: 32px;
-}
-.central-it-link.esu {
-	left: 78px;
-	width: 31px;
-}
-.central-it-link a {
-	display: block;
-	width: 100%;
-	height: 100%;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter: alpha(opacity=0);
-	-moz-opacity: 0;
-	-khtml-opacity: 0;
-	opacity: 0;
-}
-/* end of central-it.css */
-
-
-
-
-
-
-
-
-
-
-
-/* Back to Top */
-
-.back-to-top {
-    position: fixed;
-    bottom: -40px;
-    right: 40px;
-    display: block;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    background-color: var(--cityu-metallic-black-40);
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    opacity: 0;
-    -webkit-transform: scale(0.3);
-    -ms-transform: scale(0.3);
-    transform: scale(0.3);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-    z-index: 9;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.back-to-top:focus {
-    color: #fff;
-}
-.back-to-top.show {
-    bottom: 40px;
-    right: 40px;
-    opacity: 0.5;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-.back-to-top.show:hover {
-    color: #fff;
-    bottom: 30px;
-    opacity: 1;
-    background-color: var(--cityu-metallic-black-40);
-}
-.arrow {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
-    position: absolute; width: 12px; height: 12px; background-size: contain;
-    transform: rotate(-90deg);
-    top: 30%;
-    left: 40%;
-}
-.arrow:nth-child(2){
-    top: 42%;
-}
-
-@keyframes bounceAlpha {
-    0% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
-    25%{opacity: 0; transform: rotate(-90deg) translateX(10px) scale(0.9);}
-    26%{opacity: 0; transform: rotate(-90deg) translateX(-10px) scale(0.9);}
-    55% {opacity: 1; transform: rotate(-90deg) translateX(0px) scale(1);}
-}
-
-.back-to-top:hover .arrow{
-    animation-name: bounceAlpha;
-    animation-duration:1.4s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-}
-.back-to-top:hover .arrow:nth-child(2){
-    animation-name: bounceAlpha;
-    animation-duration:1.4s;
-    animation-delay:0.2s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-}
-
-
-/* end */
+*/
