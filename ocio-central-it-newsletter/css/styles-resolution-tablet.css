@@ -123,9 +123,7 @@
 
     .post-col8,
     .post-col8-width100,
-    .post-col8-img80,
-    .post-col8-imageheader,
-    .post-col8-borderbox { width: auto; }
+    .post-col8-img80 { width: auto; }
     .post-col8 .post-body,
     .post-col8-width100 .post-body,
     .post-col8-img80 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
@@ -133,20 +131,10 @@
     .post-col8-width100 .pointNext img { max-width: 576px; }
     .post-col8-img80 .post-image img { max-width: 460px; }
     .post-col8-img80 .pointNext img { max-width: 500px; }
-    .post-col8-imageheader .post-body { width: auto; margin-left: 0; margin-right: 5%; }
-    .post-col8 .post-image,
-    .post-col8-imageheader .post-image  { width: 50%; }
-    .post-col8 .post-text,
-    .post-col8-borderbox .post-text { width: 45%; }
+    .post-col8 .post-image  { width: 50%; }
+    .post-col8 .post-text { width: 45%; }
     .post-col8 .post-image { margin-left: 0; }
-    .post-col8-imageheader .post-text { width: 45%; margin-left: 5%; }
-    .post-col8-borderbox .post-image { width: 45%; }
-    .post-col8 .post-image img,
-    .post-col8-imageheader .post-image img,
-    .post-col8-borderbox .post-image img,
-    .post-col8-borderbox .post-image .post-content { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
-    .post-col8-borderbox .post-image .post-content li { margin-left: 5%; }
-    .post-col8-imageheader .post-image img { margin-top: 12px; }
+    .post-col8 .post-image img { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
 
 
 
@@ -162,11 +150,7 @@
     .post-col4_even .pointNext img { margin-left: -16px; }
     .post-col4 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
     .post-col4 .post-text ul { padding-left: 12px;  }
-    .post-col4-background-inverse .post-body { width: auto; }
-    .post-col4 .post-image,
-    .post-col4-background-inverse .post-image { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
-    .post-col4-background-inverse .post-title,
-    .post-col4-background-inverse .post-content { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col4 .post-image { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
     .post-col4-mobile100 { width: auto; }
     .post-col4-mobile100 .post-title { text-align: left;  }
     .post-col4-mobile100 .post-text ul { padding-left: 8px; }
@@ -226,7 +210,28 @@
         left: 34%;
     }
 
+
     /* (not used)
+
+    .post-col8-imageheader,
+    .post-col8-borderbox { width: auto; }
+    .post-col8-imageheader .post-body { width: auto; margin-left: 0; margin-right: 5%; }
+    .post-col8-imageheader .post-image  { width: 50%; }
+    .post-col8-borderbox .post-text { width: 45%; }
+    .post-col8-imageheader .post-text { width: 45%; margin-left: 5%; }
+    .post-col8-borderbox .post-image { width: 45%; }
+    .post-col8-imageheader .post-image img,
+    .post-col8-borderbox .post-image img,
+    .post-col8-borderbox .post-image .post-content { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
+    .post-col8-borderbox .post-image .post-content li { margin-left: 5%; }
+    .post-col8-imageheader .post-image img { margin-top: 12px; }
+
+    .post-col4-background-inverse .post-body { width: auto; }
+    .post-col4-background-inverse .post-image { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
+    .post-col4-background-inverse .post-title,
+    .post-col4-background-inverse .post-content { width: auto; margin-left: 5%; margin-right: 5%; }
+
+
     #footer-central-it p,
     #footer-central-it table.footer-contact { font-size: 12px; }
     .post-category { margin-top: 16px; }
