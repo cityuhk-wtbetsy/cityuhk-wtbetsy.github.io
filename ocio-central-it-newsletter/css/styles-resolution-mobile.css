@@ -1,8 +1,12 @@
 @charset "UTF-8";
-
-
 @media only screen and (max-width:500px) {
-    /* */
+
+
+
+
+
+    /* major areas */
+
     .insider {
         margin-left: 8px;
         margin-right: 8px;
@@ -10,29 +14,9 @@
 
 
 
-    /* header */
 
-    .top-cityu-dept {
-        height: 24px;
-    }
 
-    .top-cityu-logo {
-        width: 40px;
-        height: 24px;
-        background-image: url(../images/logos/cityu_simple_black_37x24.png);
-    }
-
-    .top-dept {
-        left: 50%;
-        margin-left: -56px;
-        margin-top: 0;
-        width: 112px;
-        height: 20px;
-    }
-    .top-dept-ocio, .top-dept-csc, .top-dept-esu, .top-dept-separator { height: 20px; }
-    .top-dept-ocio { width: 32px; background-size: 32px 20px; }
-    .top-dept-csc, .top-dept-esu { width: 24px; background-size: 24px 20px; }
-    .top-dept-separator { width: 16px; background-size: 16px 20px; }
+    /* header area */
 
     .top-header {
         height: 29px;
@@ -59,6 +43,34 @@
         font-weight: var(--font-medium);
     }
 
+    .top-cityu-dept {
+        height: 24px;
+    }
+
+    .top-cityu-logo {
+        width: 40px;
+        height: 24px;
+        background-image: url(../images/logos/cityu_simple_black_37x24.png);
+    }
+
+    .top-dept {
+        left: 50%;
+        margin-left: -56px;
+        margin-top: 0;
+        width: 112px;
+        height: 20px;
+    }
+    .top-dept-ocio, .top-dept-csc, .top-dept-esu, .top-dept-separator { height: 20px; }
+    .top-dept-ocio { width: 32px; background-size: 32px 20px; }
+    .top-dept-csc, .top-dept-esu { width: 24px; background-size: 24px 20px; }
+    .top-dept-separator { width: 16px; background-size: 16px 20px; }
+
+
+
+
+
+    /* selection panel of newspaper archive */
+
     #panel-volumes .dropdown { width: 150px; margin-top: -12px; }
     #panel-volumes .dropbtn { font-size: 12px; }
     #panel-volumes .dropdown-content, #panel-volumes #volInput { font-size: 14px; }
@@ -76,8 +88,19 @@
     #panel-volumes .dropdown-content { width: 148px; max-height: 190px; }
 
 
+
+
+
     /* post */
+
     .posts { margin-top: -32px; }
+
+
+
+
+
+    /* post default styles */
+
     .post-title { font-size: 18px; }
     .post-content { font-size: 14px; }
     .post-content h2 { font-size: 16px; padding-bottom: 4px; }
@@ -88,8 +111,19 @@
     .pointNext { margin-top: -16px !important; }
 
 
+
+
+
+    /* headline and sub-headline styles */
+
     .headline { margin-left: -8px; font-size: 21px; padding-left: 8px; padding-right: 8px; padding-top: 8px; box-shadow: 6px 4px var(--cityu-primary-darkred-30); }
     .sub-headline { font-size: 18px; }
+
+
+
+
+
+    /* post blocks */
 
     .post-col12-byside .post-text { max-width: 58%; }
     .post-col12-byside .post-image { max-width: 38%; }
@@ -102,17 +136,14 @@
     .post-col8-imageheader .post-text,
     .post-col8-borderbox .post-text,
     .post-col8-borderbox .post-image { float: none; }
-
     .post-col8 .post-content { width: auto; margin-left: 0; margin-right: 0; margin-bottom: 16px; }
     .post-col8 .post-image { width: 60%; margin-left: auto; margin-right: auto; }
-
     .post-col8-imageheader .post-body { margin-right: 0; }
     .post-col8-imageheader .post-image { width: 100%; margin-left: 0; margin-right: 0; background: none; }
     .post-col8-imageheader .post-image img { margin-top: 6px; width: 55%; margin-left: 16px;  }
     .post-col8-imageheader .post-title { color: var(--cityu-metallic-black-20); padding-top: 8px; }
     .post-col8-imageheader .post-text { width: 100%; margin-left: 0; margin-right: 0; }
     .post-col8-imageheader .post-text ul { padding-left: 36px; padding-right: 8px; }
-
     .post-col8-borderbox .post-text,
     .post-col8-borderbox .post-image { width: auto; }
     .post-col8-borderbox .post-text ul { border-right: none; padding-bottom: 0; }
@@ -123,14 +154,15 @@
     .post-col4_even { float: none; width: auto; }
     .post-col4 .post-title,
     .post-col4-background-inverse .post-title { text-align: left; }
-    /*
-    .post-col4 .post-text { float: left; width: 45%; margin-left: 8px; margin-right: 0; }
-    .post-col4 .post-image { float: right; width: 45%; margin-left: 0; margin-right: 0; }
-     */
     .post-col4 .post-image,
     .post-col4-background-inverse .post-image { max-width: 300px; margin-left: auto; margin-right: auto; }
     .post-col4-mobile100 .post-body { margin-left: 24px; }
 
+
+
+
+
+    /* footer */
 
     #footer-central-it,
     #cityu-footer-container { width: auto; margin-left: 16px; margin-right: 16px; }
