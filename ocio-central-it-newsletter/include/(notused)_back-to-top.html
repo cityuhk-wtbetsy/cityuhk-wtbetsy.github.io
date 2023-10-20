@@ -1,22 +1,19 @@
-
-<button onclick="topFunction()" id="btnToTop" title="Go to top"></button>
+<a href="javascript:void(0);" id="backToTop" class="back-to-top">
+    <i class="arrow"></i><i class="arrow"></i>
+</a>
 <script>
-
-
-
-topbutton = document.getElementById("btnToTop");
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    topbutton.style.display = "block";
-  } else {
-    topbutton.style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+var btn = $('#backToTop');
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
+});
+btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+        scrollTop: 0
+    }, '300');
+});
 </script>
