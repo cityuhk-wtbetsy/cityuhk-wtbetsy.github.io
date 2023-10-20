@@ -55,8 +55,7 @@ btn.on('click', function(e) {
 <div class="insider">
 
 
-
-<div w3-include-html="include/top-cityu-dept.html"></div>
+<iframe src="include/top-cityu-dept.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
 
 <!-- top panel: title and volume of Central IT Newsletter -->
@@ -69,8 +68,8 @@ btn.on('click', function(e) {
 
 
 
-<div w3-include-html="include/issue-list.html"></div>
 
+<iframe src="include/issue-list.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
 
 
@@ -368,7 +367,7 @@ btn.on('click', function(e) {
 
 
 <p>image 2: <code>(img) center</code></p>
-<img src="images/ui/__frame-image-square.svg" class="center" style="width: 100px; height: auto;">
+<img src="images/ui/__frame-image-square.svg" class="center" style="width: 100px; height: auto;" alt="">
 
 </div>
 </div>
@@ -824,15 +823,15 @@ btn.on('click', function(e) {
 <div class="linebreak"></div>
 
 
+<iframe src="include/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
 
-
+<!--
 <div w3-include-html="include/footer.html"></div>
 <script>
 includeHTML();
 </script>
-
-
+-->
 
 
 
