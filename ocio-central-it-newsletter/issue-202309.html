@@ -56,7 +56,7 @@ btn.on('click', function(e) {
 
 
 
-<div w3-include-html="include/top-cityu-dept.html"></div>
+<iframe src="include/top-cityu-dept.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
 
 <!-- top panel: title and volume of Central IT Newsletter -->
@@ -838,10 +838,7 @@ btn.on('click', function(e) {
 
 
 
-<div w3-include-html="include/footer.html"></div>
-<script>
-includeHTML();
-</script>
+<iframe src="include/footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
 
 
