@@ -172,7 +172,7 @@ code {
     padding: 8px 8px 8px 40px;
     border: none;
     border-bottom: 2px solid var(--cityu-metallic-black-80);
-    margin-left: 4px;
+    margin-left: 3px;
     margin-top: 4px;
     margin-bottom: 4px;
     width: 190px;
@@ -190,10 +190,11 @@ code {
     display: none;
     position: absolute;
     background-color: var(--cityu-metallic-black-95);
-    width: 198px;
+    width: 200px;
     max-height: 200px;
     overflow: auto;
     border: 2px solid var(--cityu-metallic-black-80);
+    box-sizing: border-box;
     z-index: 1;
 }
 #panel-volumes .dropdown-content a {
