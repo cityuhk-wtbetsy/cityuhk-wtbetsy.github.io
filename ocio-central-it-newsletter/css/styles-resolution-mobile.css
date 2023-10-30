@@ -72,10 +72,11 @@
     /* selection panel of newspaper archive */
 
     #panel-volumes .dropdown { width: 150px; margin-top: -12px; }
-    #panel-volumes .dropbtn { font-size: 12px; }
     #panel-volumes .dropdown-content, #panel-volumes #volInput { font-size: 14px; }
     #panel-volumes .dropbtn {
+        font-size: 12px;
         width: 150px;
+        height: 32px;
         border-top: solid 1px var(--cityu-secondary-blue-20);
         border-left: solid 1px var(--cityu-secondary-blue-20);
         border-bottom: solid 3px var(--cityu-secondary-blue-20);
