@@ -279,7 +279,7 @@ code {
 .post-content .img-caption { font-size: 14px; font-style: italic; padding-bottom: 16px; }
 .post-content ul,
 .post-content ol { padding-bottom: 21px; }
-.post-body { min-height: 120px; height: auto; display: block; overflow: hidden; }
+.post-body { min-height: 120px; height: auto; padding-top: 40px; display: block; overflow: hidden; }
 .post-body strong { font-weight: var(--font-black_heavy); }
 .post-title::after,
 .post-content::after,
