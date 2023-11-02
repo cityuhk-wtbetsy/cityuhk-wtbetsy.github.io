@@ -310,7 +310,7 @@ code {
     padding-right: 32px;
     background-color: var(--cityu-primary-darkred-50);
     color: #FFFFFF;
-    font-family: 'Century Old Style', 'Franklin Gothic', Georgia, serif;
+    font-family: Georgia, 'Century Old Style', 'Franklin Gothic', serif;
     font-size: 32px;
     font-weight: var(--font-semibold);
     box-shadow: 12px 8px var(--cityu-primary-darkred-30);
