@@ -387,7 +387,7 @@ code {
 .post-col4_even { float: none; padding-bottom: 24px; }
 
 .post-col4,
-.post-col4-mobile100 { width: 304px; min-height: 320px; }
+.post-col4-mobile100 { width: 304px; min-height: 320px; padding-bottom: 24px; }
 .post-col4 .post-title,
 .post-col4-mobile100 .post-title { text-align: center; }
 
