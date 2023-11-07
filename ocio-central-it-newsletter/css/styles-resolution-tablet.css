@@ -168,7 +168,7 @@
     .post-col6 .post-body,
     .post-col6-width100 .post-body,
     .post-col6-img60 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
-    .post-col6-width100 .post-image img { max-width: 536px; }
+    .post-col6-width100 .post-image { max-width: 536px; }
     .post-col6-width100 .pointNext img { max-width: 576px; }
     .post-col6-img60 .post-image { max-width: 216px; margin: auto; }
     .post-col6-img60 .pointNext img { max-width: 256px; }
