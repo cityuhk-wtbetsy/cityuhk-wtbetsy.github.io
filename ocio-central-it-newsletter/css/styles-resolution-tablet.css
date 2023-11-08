@@ -110,8 +110,6 @@
     .post-col12-byside_imgSmaller .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
     .post-col12-byside .post-image { max-width: 50%; }
     .post-col12-byside_imgSmaller .post-image { max-width: 32%; }
-
-    .post-col12-byside_imgSmaller .post-image img { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
     .post-col12-byside .post-text { max-width: 48%; }
     .post-col12-byside_imgSmaller .post-text { max-width: 65%; }
 
