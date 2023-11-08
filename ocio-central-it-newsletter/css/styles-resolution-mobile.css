@@ -130,20 +130,29 @@
     .post-col12-byside .post-image { max-width: 38%; }
     .post-col12-byside .post-image img {  max-width: 100%; margin-left: 0; margin-right: 0; }
     .post-col12-byside_imgSmaller .post-image img { max-width: 100%; margin-left: 0; margin-right: 0; }
+    .post-col12-byside .post-body,
+    .post-col12-byside_imgSmaller .post-body { margin-left: 16px; margin-right: 16px; }
 
     .post-col8 .post-text,
     .post-col8 .post-image { float: none; }
     .post-col8 .post-content { width: auto; margin-left: 0; margin-right: 0; margin-bottom: 16px; }
     .post-col8 .post-image { width: 60%; margin-left: auto; margin-right: auto; }
+    .post-col8 .post-body,
+    .post-col8-width100 .post-body,
+    .post-col8-img80 .post-body { margin-left: 16px; margin-right: 16px; }
 
     .post-col4_odd,
     .post-col4_even { float: none; width: auto; }
     .post-col4 .post-title { text-align: left; }
     .post-col4 .post-image { max-width: 300px; margin-left: auto; margin-right: auto; }
-    .post-col4-mobile100 .post-body { margin-left: 24px; }
+    .post-col4 .post-body,
+    .post-col4-mobile100 .post-body { margin-left: 16px; margin-right: 16px; }
 
     .post-col6-img60 .post-image { max-width: 216px; }
     .post-col6-img60 .pointNext img { max-width: 256px; }
+    .post-col6 .post-body,
+    .post-col6-width100 .post-body,
+    .post-col6-img60 .post-body { margin-left: 16px; margin-right: 16px; }
 
 
 
