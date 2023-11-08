@@ -396,7 +396,7 @@ code {
 .post-col4 .post-text ul,
 .post-col4-mobile100 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
 .post-col4 .post-image,
-.post-col4-mobile100 .post-image { width: 272px; margin-left: auto; margin-right: auto; margin-top: 24px; }
+.post-col4-mobile100 .post-image { width: 272px; margin-left: auto; margin-right: auto; }
 .post-col4 .post-image img,
 .post-col4-mobile100 .post-image img { width: 100%; }
 .post-col4::after,
