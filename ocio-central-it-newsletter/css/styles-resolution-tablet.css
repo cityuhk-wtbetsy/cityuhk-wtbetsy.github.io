@@ -119,6 +119,18 @@
 
     /* post blocks with two-thirds of width -> full of width */
 
+    .post-col8-img80percent,
+    .post-col8-img100percent { width: auto; }
+    .post-col8-img80percent .post-body,
+    .post-col8-img100percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+    .post-col8-img80percent .post-image img { max-width: 460px; }
+    .post-col8-img80percent .pointNext img { max-width: 500px; }
+    .post-col8-img100percent .post-image img { max-width: 536px; }
+    .post-col8-img100percent .pointNext img { max-width: 576px; }
+
+
+
+
     .post-col8,
     .post-col8-width100,
     .post-col8-img80 { width: auto; }
