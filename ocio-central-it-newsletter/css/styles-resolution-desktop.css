@@ -354,6 +354,24 @@ code {
 
 /* post blocks with two-thirds of width */
 
+.post-col8-img80percent,
+.post-col8-img100percent { width: 624px; display: block; padding-bottom: 24px; }
+
+.post-col8-img80percent .post-body,
+.post-col8-img100percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+.post-col8-img80percent .post-text,
+.post-col8-img100percent .post-text { width: 100%; }
+.post-col8-img80percent .post-text ul,
+.post-col8-img100percent .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
+.post-col8-img80percent .post-image img { width: 80%; margin-left: 10%; margin-right: 10%; }
+.post-col8-img100percent .post-image img { width: 100%; }
+.post-col8-img80percent::after,
+.post-col8-img100percent::after { clear: both; display: block; }
+
+
+
+
+
 .post-col8,
 .post-col8-width100,
 .post-col8-img80 { width: 624px; display: block; padding-bottom: 24px; }
