@@ -131,6 +131,9 @@
     .post-col12-txt560_img328 .post-body,
     .post-col12-txt688_img200 .post-body { margin-left: 16px; margin-right: 16px; }
 
+    .post-col8-img80percent .post-body,
+    .post-col8-img100percent .post-body { margin-left: 16px; margin-right: 16px; }
+
     .post-col8 .post-text,
     .post-col8 .post-image { float: none; }
     .post-col8 .post-content { width: auto; margin-left: 0; margin-right: 0; margin-bottom: 16px; }
