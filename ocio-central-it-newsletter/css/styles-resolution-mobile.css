@@ -128,7 +128,7 @@
 
     .post-col12-byside .post-text { max-width: 58%; }
     .post-col12-byside .post-image { max-width: 38%; }
-    .post-col12-byside .post-image img {  max-width: 100%; margin-left: 0; margin-right: 0; }
+
     .post-col12-byside_imgSmaller .post-image img { max-width: 100%; margin-left: 0; margin-right: 0; }
     .post-col12-byside .post-body,
     .post-col12-byside_imgSmaller .post-body { margin-left: 16px; margin-right: 16px; }
