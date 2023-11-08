@@ -131,11 +131,6 @@
     .post-col12-txt560_img328 .post-body,
     .post-col12-txt688_img200 .post-body { margin-left: 16px; margin-right: 16px; }
 
-    .post-col12-byside .post-text { max-width: 58%; }
-    .post-col12-byside .post-image { max-width: 38%; }
-    .post-col12-byside .post-body,
-    .post-col12-byside_imgSmaller .post-body { margin-left: 16px; margin-right: 16px; }
-
     .post-col8 .post-text,
     .post-col8 .post-image { float: none; }
     .post-col8 .post-content { width: auto; margin-left: 0; margin-right: 0; margin-bottom: 16px; }
