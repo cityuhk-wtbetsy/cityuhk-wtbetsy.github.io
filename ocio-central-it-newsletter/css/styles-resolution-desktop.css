@@ -333,9 +333,23 @@ code {
 
 /* post blocks with full of width */
 
+.post-col12-txt560_img328,
+.post-col12-txt688_img200 { width: 100%; display: block; padding-bottom: 24px; }
+.post-col12-txt560_img328 .post-body,
+.post-col12-txt688_img200 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+.post-col12-txt560_img328 .post-text  { float: left; width: 560px; }
+.post-col12-txt688_img200 .post-text { float: left; width: 688px; }
+.post-col12-txt560_img328 .post-text ul,
+.post-col12-txt688_img200 .post-text ul { padding-left: 24px; padding-right: 24px; }
+.post-col12-txt560_img328 .post-image { float: left; width: 328px; margin-left: 8px; }
+.post-col12-txt560_img328 .post-image img { width: 100%; }
+.post-col12-txt688_img200 .post-image { float: left; width: 200px; margin-left: 8px; }
+.post-col12-txt688_img200 .post-image img { width: 100%; }
+.post-col12-txt560_img328::after,
+.post-col12-txt688_img200::after { clear: both; display: block; }
+
 .post-col12-byside,
 .post-col12-byside_imgSmaller { width: 100%; display: block; padding-bottom: 24px; }
-
 .post-col12-byside .post-body,
 .post-col12-byside_imgSmaller .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
 .post-col12-byside .post-text  { float: left; width: 560px; }
