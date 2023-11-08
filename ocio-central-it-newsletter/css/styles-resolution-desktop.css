@@ -345,7 +345,7 @@ code {
 .post-col12-byside .post-image { float: left; width: 328px; margin-left: 8px; }
 .post-col12-byside .post-image img { width: 100%; }
 .post-col12-byside_imgSmaller .post-image { float: left; width: 200px; margin-left: 8px; }
-.post-col12-byside_imgSmaller .post-image img { width: 200px; }
+.post-col12-byside_imgSmaller .post-image img { width: 100%; }
 .post-col12-byside::after,
 .post-col12-byside_imgSmaller::after { clear: both; display: block; }
 
