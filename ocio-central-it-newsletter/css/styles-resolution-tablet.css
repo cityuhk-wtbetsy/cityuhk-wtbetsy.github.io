@@ -107,7 +107,7 @@
     /* post blocks with full of width */
 
     .post-col12-byside .post-body,
-    .post-col12-byside_imgSmaller .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col12-byside_imgSmaller .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
     .post-col12-byside .post-image { max-width: 50%; }
     .post-col12-byside_imgSmaller .post-image { max-width: 32%; }
     .post-col12-byside .post-image img,
@@ -126,7 +126,7 @@
     .post-col8-img80 { width: auto; }
     .post-col8 .post-body,
     .post-col8-width100 .post-body,
-    .post-col8-img80 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col8-img80 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
     .post-col8-width100 .post-image img { max-width: 536px; }
     .post-col8-width100 .pointNext img { max-width: 576px; }
     .post-col8-img80 .post-image img { max-width: 460px; }
@@ -148,13 +148,13 @@
     .post-col4_even { width: 48%; }
     .post-col4_odd .pointNext img,
     .post-col4_even .pointNext img { margin-left: -16px; }
-    .post-col4 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col4 .post-body,
+    .post-col4-mobile100 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
     .post-col4 .post-text ul { padding-left: 12px;  }
     .post-col4 .post-image { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
     .post-col4-mobile100 { width: auto; }
     .post-col4-mobile100 .post-title { text-align: left;  }
     .post-col4-mobile100 .post-text ul { padding-left: 8px; }
-    .post-col4-mobile100 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
 
 
 
@@ -167,7 +167,7 @@
     .post-col6-img60 { width: auto; }
     .post-col6 .post-body,
     .post-col6-width100 .post-body,
-    .post-col6-img60 .post-body { width: auto; margin-left: 5%; margin-right: 5%; }
+    .post-col6-img60 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
     .post-col6-width100 .post-image { max-width: 536px; }
     .post-col6-width100 .pointNext img { max-width: 576px; }
     .post-col6-img60 .post-image { max-width: 320px; margin: auto; }
