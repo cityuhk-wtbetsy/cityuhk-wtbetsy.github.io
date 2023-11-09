@@ -134,6 +134,14 @@
 
     /* post blocks with one-thirds of width -> full of width */
 
+    .post-col4-img272-title_center { width: auto; }
+    .post-col4-img272-title_center .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+    .post-col4-img272-title_center .post-title { text-align: left;  }
+    .post-col4-img272-title_center .post-text ul { padding-left: 8px; }
+
+
+
+
     .post-col4_odd { float: left; }
     .post-col4_even { float: right; }
     .post-col4_odd,
