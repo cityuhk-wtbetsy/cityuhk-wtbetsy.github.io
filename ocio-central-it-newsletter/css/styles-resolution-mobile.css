@@ -136,13 +136,6 @@
 
     .post-col4-img272-title_center .post-body { margin-left: 16px; margin-right: 16px; }
 
-    .post-col4_odd,
-    .post-col4_even { float: none; width: auto; }
-    .post-col4 .post-title { text-align: left; }
-    .post-col4 .post-image { max-width: 300px; margin-left: auto; margin-right: auto; }
-    .post-col4 .post-body,
-    .post-col4-mobile100 .post-body { margin-left: 16px; margin-right: 16px; }
-
     .post-col6-img60 .post-image { max-width: 216px; }
     .post-col6-img60 .pointNext img { max-width: 256px; }
     .post-col6 .post-body,
