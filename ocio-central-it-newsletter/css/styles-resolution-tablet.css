@@ -145,6 +145,16 @@
 
     /* post blocks with half of width -> full of width */
 
+    .post-col6-img60percent,
+    .post-col6-img100percent { width: auto; }
+    .post-col6-img60percent .post-body,
+    .post-col6-img100percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+    .post-col6-img60percent .post-image { max-width: 320px; }
+    .post-col6-img100percent .post-image { max-width: 536px; }
+
+
+
+
     .post-col6,
     .post-col6-width100,
     .post-col6-img60 { width: auto; }
