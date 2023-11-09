@@ -142,23 +142,6 @@
 
 
 
-    .post-col4_odd { float: left; }
-    .post-col4_even { float: right; }
-    .post-col4_odd,
-    .post-col4_even { width: 48%; }
-    .post-col4_odd .pointNext img,
-    .post-col4_even .pointNext img { margin-left: -16px; }
-    .post-col4 .post-body,
-    .post-col4-mobile100 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
-    .post-col4 .post-text ul { padding-left: 12px;  }
-    .post-col4 .post-image { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
-    .post-col4-mobile100 { width: auto; }
-    .post-col4-mobile100 .post-title { text-align: left;  }
-    .post-col4-mobile100 .post-text ul { padding-left: 8px; }
-
-
-
-
 
     /* post blocks with half of width -> full of width */
 
