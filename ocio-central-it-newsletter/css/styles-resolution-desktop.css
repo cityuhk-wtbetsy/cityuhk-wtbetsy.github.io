@@ -363,36 +363,12 @@ code {
 .post-col8-img100percent .post-text { width: 100%; }
 .post-col8-img80percent .post-text ul,
 .post-col8-img100percent .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
-.post-col8-img80percent .post-image img { width: 80%; margin-left: 10%; margin-right: 10%; }
+.post-col8-img80percent .post-image { width: 80%; margin: auto; }
+.post-col8-img100percent .post-image { width: 100%; }
+.post-col8-img80percent .post-image img,
 .post-col8-img100percent .post-image img { width: 100%; }
 .post-col8-img80percent::after,
 .post-col8-img100percent::after { clear: both; display: block; }
-
-
-
-
-
-.post-col8,
-.post-col8-width100,
-.post-col8-img80 { width: 624px; display: block; padding-bottom: 24px; }
-
-.post-col8 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
-.post-col8 .post-text { float: left; width: 280px; }
-.post-col8 .post-text ul { padding-left: 24px; padding-right: 24px; }
-.post-col8 .post-image { float: left; width: 280px; margin-left: 8px; margin-right: 0; }
-.post-col8 .post-image img { width: 280px; }
-.post-col8::after { clear: both; display: block; }
-
-.post-col8-width100 .post-body,
-.post-col8-img80 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
-.post-col8-width100 .post-text,
-.post-col8-img80 .post-text { width: 100%; }
-.post-col8-width100 .post-text ul,
-.post-col8-img80 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
-.post-col8-width100 .post-image img { width: 100%; }
-.post-col8-img80 .post-image img { width: 80%; margin-left: 10%; margin-right: 10%; }
-.post-col8-width100::after,
-.post-col8-img80::after { clear: both; display: block; }
 
 
 
