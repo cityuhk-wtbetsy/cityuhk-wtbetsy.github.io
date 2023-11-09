@@ -143,15 +143,6 @@
 
 
 
-    .post-col6-img60 .post-image { max-width: 216px; }
-    .post-col6-img60 .pointNext img { max-width: 256px; }
-    .post-col6 .post-body,
-    .post-col6-width100 .post-body,
-    .post-col6-img60 .post-body { margin-left: 16px; margin-right: 16px; }
-
-
-
-
     /* footer */
 
     #footer-central-it,
@@ -161,27 +152,4 @@
     #footer-central-it .footer-specific { width: 100%; }
 
 
-
-    /* (not used)
-
-    .post-col8-imageheader .post-image,
-    .post-col8-imageheader .post-text,
-    .post-col8-borderbox .post-text,
-    .post-col8-borderbox .post-image { float: none; }
-    .post-col8-imageheader .post-body { margin-right: 0; }
-    .post-col8-imageheader .post-image { width: 100%; margin-left: 0; margin-right: 0; background: none; }
-    .post-col8-imageheader .post-image img { margin-top: 6px; width: 55%; margin-left: 16px;  }
-    .post-col8-imageheader .post-title { color: var(--cityu-metallic-black-20); padding-top: 8px; }
-    .post-col8-imageheader .post-text { width: 100%; margin-left: 0; margin-right: 0; }
-    .post-col8-imageheader .post-text ul { padding-left: 36px; padding-right: 8px; }
-    .post-col8-borderbox .post-text,
-    .post-col8-borderbox .post-image { width: auto; }
-    .post-col8-borderbox .post-text ul { border-right: none; padding-bottom: 0; }
-    .post-col8-borderbox .post-image img {  width: 60%; margin-left: 20%; margin-right: 20%; }
-    .post-col8-borderbox .post-image .post-content { margin-left: 16px; }
-
-    .post-col4-background-inverse .post-title { text-align: left; }
-    .post-col4-background-inverse .post-image { max-width: 300px; margin-left: auto; margin-right: auto; }
-
-     */
 }
