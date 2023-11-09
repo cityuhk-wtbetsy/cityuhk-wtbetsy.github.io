@@ -289,7 +289,7 @@ code {
 .img-border img { border: solid 4px var(--cityu-metallic-black-80); box-sizing: border-box; }
 .img-borderless img { border: none !important; }
 .img-frame img { border: solid 4px var(--cityu-metallic-black-80); background-color: var(--cityu-metallic-black-90); box-sizing: border-box; }
-.post-image-width60 { width: 60%; margin-left: 20%; margin-right: 20%; }
+.post-image-width60 { width: 60%; margin: auto; }
 .post-image-width60 img { width: 100%; }
 .pointNext { margin-top: -24px !important; }
 
@@ -389,6 +389,26 @@ code {
 
 
 /* post blocks with half of width */
+
+.post-col6-img60percent,
+.post-col6-img100percent{ width: 464px; display: block; padding-bottom: 24px; }
+
+.post-col6-img60percent .post-body,
+.post-col6-img100percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+.post-col6-img60percent .post-text,
+.post-col6-img100percent .post-text { width: 100%; }
+.post-col6-img60percent .post-text ul,
+.post-col6-img100percent .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
+.post-col6-img60percent .post-image { width: 60%; margin: auto; }
+.post-col6-img100percent .post-image { width: 100%; margin-left: auto; margin-right: auto; }
+.post-col6-img60percent .post-image img,
+.post-col6-img100percent .post-image img { width: 100%; }
+.post-col6-img60percent::after,
+.post-col6-img100percent::after { clear: both; display: block; }
+
+
+
+
 
 .post-col6,
 .post-col6-width100,
