@@ -123,28 +123,10 @@
     .post-col8-img100percent { width: auto; }
     .post-col8-img80percent .post-body,
     .post-col8-img100percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
-    .post-col8-img80percent .post-image img { max-width: 460px; }
+    .post-col8-img80percent .post-image { max-width: 460px; }
     .post-col8-img80percent .pointNext img { max-width: 500px; }
     .post-col8-img100percent .post-image img { max-width: 536px; }
     .post-col8-img100percent .pointNext img { max-width: 576px; }
-
-
-
-
-    .post-col8,
-    .post-col8-width100,
-    .post-col8-img80 { width: auto; }
-    .post-col8 .post-body,
-    .post-col8-width100 .post-body,
-    .post-col8-img80 .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
-    .post-col8-width100 .post-image img { max-width: 536px; }
-    .post-col8-width100 .pointNext img { max-width: 576px; }
-    .post-col8-img80 .post-image img { max-width: 460px; }
-    .post-col8-img80 .pointNext img { max-width: 500px; }
-    .post-col8 .post-image  { width: 50%; }
-    .post-col8 .post-text { width: 45%; }
-    .post-col8 .post-image { margin-left: 0; }
-    .post-col8 .post-image img { width: auto; max-width: 90%; margin-left: 5%; margin-right: 5%; }
 
 
 
