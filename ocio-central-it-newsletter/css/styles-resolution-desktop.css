@@ -376,6 +376,22 @@ code {
 
 /* post blocks with one-thirds of width */
 
+.post-col4-img272-title_center { width: 304px; min-height: 320px; padding-bottom: 24px; }
+.post-col4-img272-title_center .post-title { text-align: center; }
+.post-col4-img272-title_center .post-text { width: auto; margin-left: 16px; margin-right: 16px; }
+.post-col4-img272-title_center .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
+.post-col4-img272-title_center .post-image { width: 272px; margin-left: auto; margin-right: auto; }
+.post-col4-img272-title_center .post-image img { width: 100%; }
+.post-col4-img272-title_center::after  { clear: both; display: block; }
+
+
+
+
+
+
+
+
+
 .post-col4_odd,
 .post-col4_even { float: none; padding-bottom: 24px; }
 
