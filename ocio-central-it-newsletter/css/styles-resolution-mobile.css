@@ -134,6 +134,8 @@
     .post-col8-img80percent .post-body,
     .post-col8-img100percent .post-body { margin-left: 16px; margin-right: 16px; }
 
+    .post-col4-img272-title_center .post-body { margin-left: 16px; margin-right: 16px; }
+
     .post-col4_odd,
     .post-col4_even { float: none; width: auto; }
     .post-col4 .post-title { text-align: left; }
