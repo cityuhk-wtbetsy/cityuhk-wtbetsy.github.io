@@ -388,33 +388,6 @@ code {
 
 
 
-
-
-
-
-.post-col4_odd,
-.post-col4_even { float: none; padding-bottom: 24px; }
-
-.post-col4,
-.post-col4-mobile100 { width: 304px; min-height: 320px; padding-bottom: 24px; }
-.post-col4 .post-title,
-.post-col4-mobile100 .post-title { text-align: center; }
-
-.post-col4 .post-text,
-.post-col4-mobile100 .post-text { width: auto; margin-left: 16px; margin-right: 16px; }
-.post-col4 .post-text ul,
-.post-col4-mobile100 .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
-.post-col4 .post-image,
-.post-col4-mobile100 .post-image { width: 272px; margin-left: auto; margin-right: auto; }
-.post-col4 .post-image img,
-.post-col4-mobile100 .post-image img { width: 100%; }
-.post-col4::after,
-.post-col4-mobile100::after  { clear: both; display: block; }
-
-
-
-
-
 /* post blocks with half of width */
 
 .post-col6,
