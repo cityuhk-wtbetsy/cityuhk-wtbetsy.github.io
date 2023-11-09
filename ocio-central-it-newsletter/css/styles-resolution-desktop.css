@@ -391,7 +391,7 @@ code {
 /* post blocks with half of width */
 
 .post-col6-img60percent,
-.post-col6-img100percent{ width: 464px; display: block; padding-bottom: 24px; }
+.post-col6-img100percent { width: 464px; display: block; padding-bottom: 24px; }
 
 .post-col6-img60percent .post-body,
 .post-col6-img100percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
@@ -400,7 +400,7 @@ code {
 .post-col6-img60percent .post-text ul,
 .post-col6-img100percent .post-text ul { padding-top: 12px; padding-left: 24px; padding-right: 16px; }
 .post-col6-img60percent .post-image { width: 60%; margin: auto; }
-.post-col6-img100percent .post-image { width: 100%; margin-left: auto; margin-right: auto; }
+.post-col6-img100percent .post-image { width: 100%; margin: auto; }
 .post-col6-img60percent .post-image img,
 .post-col6-img100percent .post-image img { width: 100%; }
 .post-col6-img60percent::after,
