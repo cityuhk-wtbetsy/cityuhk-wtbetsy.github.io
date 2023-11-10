@@ -287,7 +287,7 @@ code {
 .post-text::after,
 .post-image::after { clear: both; display: block; }
 .img-border img { border: solid 4px var(--cityu-metallic-black-80); box-sizing: border-box; }
-.img-borderless img { border: none !important; }
+.img-borderless img { border: none; }
 .post-image-width60percent { width: 60%; margin: auto; }
 .post-image-width60percent img { width: 100%; }
 .pointNext { margin-top: -24px !important; }
