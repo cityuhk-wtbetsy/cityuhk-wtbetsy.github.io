@@ -192,7 +192,7 @@ code {
     position: absolute;
     background-color: var(--cityu-metallic-black-95);
     width: 200px;
-    max-height: 200px;
+    max-height: 240px;
     overflow: auto;
     border: 2px solid var(--cityu-metallic-black-80);
     box-sizing: border-box;
@@ -207,6 +207,38 @@ code {
 }
 #panel-volumes .dropdown a:hover { background-color: var(--cityu-secondary-blue-20); color: var(--cityu-metallic-black-95); }
 #panel-volumes .show { display: block; }
+
+#panel-volumes .closebtn {
+    width: 100%;
+    height: 28px;
+    background-color: var(--cityu-secondary-blue-30);
+    text-align: center;
+    box-sizing: border-box;
+    border-top: solid 1px var(--cityu-secondary-blue-60);
+    border-left: solid 1px var(--cityu-secondary-blue-60);
+    border-bottom: solid 3px var(--cityu-secondary-blue-20);
+    border-right: solid 3px var(--cityu-secondary-blue-20);
+}
+#panel-volumes .closebtn:hover {
+    background-color: var(--cityu-secondary-blue-20);
+    border-top: solid 1px var(--cityu-secondary-blue-30);
+    border-left: solid 1px var(--cityu-secondary-blue-30);
+    border-bottom: solid 3px var(--cityu-secondary-blue-10);
+    border-right: solid 3px var(--cityu-secondary-blue-10);
+}
+#panel-volumes .closebtn:active {
+    background-color: var(--cityu-secondary-blue-10);
+    border: solid 2px var(--cityu-secondary-blue-20);
+}
+#panel-volumes .arrowUp {
+    border: solid #FFFFFF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-top: 10px;
+}
 
 
 
