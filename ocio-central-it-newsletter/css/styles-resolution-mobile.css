@@ -86,7 +86,13 @@
     #panel-volumes .dropbtn:hover { border: solid 2px var(--cityu-secondary-blue-30); }
     #panel-volumes .dropbtn img { width: 20px; }
     #panel-volumes #volInput { background-position: 8px 6px; background-size: 16px 16px; width: 140px; padding-left: 28px; }
-    #panel-volumes .dropdown-content { width: 150px; max-height: 190px; }
+    #panel-volumes .dropdown-content { width: 150px; max-height: 220px; }
+    #panel-volumes .closebtn { height: 20px; }
+    #panel-volumes .arrowUp {
+        border-width: 0 2px 2px 0;
+        padding: 2px;
+        margin-top: 4px;
+    }
 
 
 
