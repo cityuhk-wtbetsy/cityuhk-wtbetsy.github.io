@@ -89,7 +89,8 @@
     .post-title { font-size: 22px; }
     .post-content { font-size: 16px; }
     .post-content h2 { font-size: 18px; }
-    .post-image-width60percent { min-width: 300px; }
+    .post-image-width60percent,
+    .post-image-width40percent { min-width: 300px; }
 
 
 
@@ -146,11 +147,14 @@
     /* post blocks with half of width -> full of width */
 
     .post-col6-img60percent,
-    .post-col6-img100percent { width: auto; }
+    .post-col6-img100percent,
+    .post-col6-img100percent_mobile80percent { width: auto; }
     .post-col6-img60percent .post-body,
-    .post-col6-img100percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
+    .post-col6-img100percent .post-body,
+    .post-col6-img100percent_mobile80percent .post-body { width: auto; margin-left: 24px; margin-right: 24px; }
     .post-col6-img60percent .post-image { max-width: 320px; }
-    .post-col6-img100percent .post-image { max-width: 536px; }
+    .post-col6-img100percent .post-image,
+    .post-col6-img100percent_mobile80percent .post-image { max-width: 536px; }
 
 
 
