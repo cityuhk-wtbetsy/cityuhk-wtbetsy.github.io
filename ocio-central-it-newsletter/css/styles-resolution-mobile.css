@@ -143,6 +143,7 @@
     .post-col4-img272-title_center .post-body { margin-left: 16px; margin-right: 16px; }
 
     .post-col6-img60percent .post-image { max-width: 216px; }
+    .post-col6-img100percent_mobile80percent .post-image { max-width: 80%; }
     .post-col6-img60percent .post-body,
     .post-col6-img100percent .post-body { margin-left: 16px; margin-right: 16px; }
 
