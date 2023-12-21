@@ -320,9 +320,11 @@ code {
 .post-image::after { clear: both; display: block; }
 .img-border img { border: solid 4px var(--cityu-metallic-black-80); box-sizing: border-box; }
 .img-borderless img { border: none; }
-.post-image-width60percent { width: 60%; margin: auto; }
+.post-image-width60percent,
+.post-image-width60percent-mobile100percent { width: 60%; margin: auto; }
 .post-image-width40percent { width: 40%; margin: auto; }
 .post-image-width60percent img,
+.post-image-width60percent-mobile100percent img,
 .post-image-width40percent img { width: 100%; }
 .pointNext { margin-top: -24px !important; }
 .img-frame img { border: solid 4px var(--cityu-metallic-black-80); background-color: var(--cityu-metallic-black-90); box-sizing: border-box; }
