@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>testing</title>
+<script>
+function getFile(fname)
+{
+    var opener = new ActiveXObject("Scripting.FileSystemObject");
+    var pointer = opener.OpenTextFile(fname, 1, true);
+    var cont = pointer.ReadAll();
+    pointer.Close();
+    return cont;
+}
+
+function setFile(fname, content)
+{
+    var opener = new ActiveXObject("Scripting.FileSystemObject");
+    var pointer = opener.OpenTextFile(fname, 2, true);
+    pointer.WriteLine(content);
+    pointer.Close();
+}
+</script>
+</head>
+<body>
+<!-- <input type="file" name="csvFile" id="csvFile" accept=".csv" > -->
+<br><br>
+<input type="button" value="copy csv file" onclick="copyCSV();" >
+<script>
+function copyCSV () {
+    var content = getFile('in.csv'); // read it
+    var lineArr = content.split('\r\n'); // now we have an array of the file's lines
+    lineArr[2] = 'NEW LINE CONTENT!'; // editing third line (indexed from 0)
+    var newContent = lineArr.join('\r\n'); // make it text again with newlines
+    setFile("in.csv", newContent); // write it
+}
+</script>
+</body>
+</html>

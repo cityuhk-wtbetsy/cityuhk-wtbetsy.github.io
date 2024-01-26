@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>testing</title>
+  </head>
+<body>
+  <input type="file" name="csvFile" id="csvFile" accept=".csv" > <br><br>
+  <input type="button" value="Read CSV!" onclick="fetchCSVFile();" >
+ <script>
+  const csvFile = document.getElementById("csvFile");
+  function fetchCSVFile(){
+   const selCSVFile = csvFile.files[0];
+   const readCSV = new FileReader();
+   readCSV.onload = function (e) {
+    const data = e.target.result;
+    document.write(data);
+   };
+   readCSV.readAsText(selCSVFile);
+  };
+ </script>
+</body>
+</html>
