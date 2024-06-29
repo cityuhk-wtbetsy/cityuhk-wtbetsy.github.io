@@ -2,6 +2,7 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({
     apiKey: '733e65925fd3477e8e4296db148e5d36',
+    url: 'https://apim-aoai-eas-dev02.azure-api.net/oai-gpt/openai/deployments/gpt4-0613/chat/completions?api-version=2024-02-15-preview',
 });
 
 async function main() {
