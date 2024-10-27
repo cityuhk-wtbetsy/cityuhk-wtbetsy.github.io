@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scenario 1</title>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script>
+function connectCanvas1(item1, item2, startPosition, endPosition) {
+    let canvas = document.getElementById("canvas1");
+    let ctx = canvas.getContext("2d");
+
+    item1 = item1.getBoundingClientRect();
+    item2 = item2.getBoundingClientRect();
+    console.log("connecting ", item1, " to ", item2);
+
+    let startX, startY, endX, endY = 0.0;
+
+    switch (startPosition) {
+        case "top":
+            startX = item1.width / 2 + item1.left;
+            startY = item1.top;
+            break;
+        case "right":
+            startX = item1.width + item1.left;
+            startY = item1.height / 2 + item1.top;
+            break;
+        case "bottom":
+            startX = item1.width / 2 + item1.left;
+            startY = item1.height + item1.top;
+            break;
+        case "left":
+            startX = item1.left;
+            startY = item1.width / 2 + item1.top;
+            break;
+        default:
+            // invalid input
+    }
+
+    switch (endPosition) {
+        case "top":
+            endX = item2.width / 2 + item2.left;
+            endY = item2.top;
+            break;
+        case "right":
+            endX = item2.width + item2.left;
+            endY = item2.height / 2 + item2.top;
+            break;
+        case "bottom":
+            endX = item2.width / 2 + item2.left;
+            endY = item2.height + item2.top;
+            break;
+        case "left":
+            endX = item2.left;
+            endY = item2.height / 2 + item2.top;
+            break;
+        default:
+        // invalid input
+    }
+
+    ctx.moveTo(startX, startY);
+    if (startPosition === "bottom" || startPosition === "top") {
+        ctx.lineTo(startX, endY);
+    } else {
+        ctx.lineTo(endX, startY);
+    }
+    ctx.lineTo(endX, endY);
+    ctx.stroke();
+    ctx.strokeStyle = "#6C6D6D";
+    ctx.lineWidth = 4;
+}
+</script>
+
+
+<style>
+* { padding: 0; margin: 0; }
+canvas {
+    background: #FFFFFF;
+    position: absolute;
+    z-index: -1;
+    border: 1px solid #CCCCCC;
+}
+#scenario1 { width: 800px; height: 600px; position: relative; }
+
+.block {
+    padding: 8px;
+    margin: 16px;
+    border-radius: 12px;
+    border: solid 4px #B5B6B6;
+    background-color: #FFFFFF;
+    color: #494948;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: "Lato", "Roboto", "Inter", "Open Sans", sans-serif;
+    box-shadow: 2px 2px 0 #6C6D6D;
+    position: absolute;
+}
+a.button:hover > .block { background-color: #FFF9E1; color: #1C1C1B; cursor: pointer; }
+
+#scenario1 #s1block1 { top: 0; left: 100px; width: 160px; }
+#scenario1 #s1block2a { top: 100px; left: 60px; width: 60px; height: 60px; border-radius: 30px; }
+#scenario1 #s1block2b { top: 100px; left: 240px; width: 60px; height: 60px; border-radius: 30px; }
+#scenario1 #s1block3a { top: 180px; left: 0; width: 180px; }
+#scenario1 #s1block3b { top: 180px; left: 200px; width: 140px; }
+#scenario1 #s1block4b { top: 320px; left: 160px; width: 220px; }
+#scenario1 #s1block2a,
+#scenario1 #s1block3a { border: solid 4px #80C7D1; box-shadow: 2px 2px 0 #008FA3; }
+#scenario1 #s1block2a { border: none; box-shadow: none; background-color: #008FA3; color: #FFFFFF; }
+#scenario1 #s1block2b,
+#scenario1 #s1block3b,
+#scenario1 #s1block4b { border: solid 4px #BE81BC; box-shadow: 2px 2px 0 #7C0378; }
+#scenario1 #s1block2b { border: none; box-shadow: none; background-color: #7C0378; color: #FFFFFF; }
+</style>
+
+
+</head>
+<body>
+
+<div id="scenario1">
+<canvas id="canvas1" width="420" height="480"></canvas>
+
+
+<a class="button" href="https://www.cityu.edu.hk/ge_info/Search/" target="_blank">
+<button id="s1block1" class="block">
+    Can you identify an equivalent CityUHK GE courses?
+</button></a>
+
+<button id="s1block2a" class="block">
+    Yes
+</button>
+<button id="s1block2b" class="block">
+    No
+</button>
+
+<a class="button" href="https://www.cityu.edu.hk/arro" target="_blank">
+<button id="s1block3a" class="block">
+    Send the application to the course leader of the equivalent course in CityUHK and ARRO.
+</button></a>
+<a class="button" href="https://www.cityu.edu.hk/ge_info/Search/" target="_blank">
+<button id="s1block3b" class="block">
+    Identify the specific GE Area in which the course falls.
+</button></a>
+
+<button id="s1block4b" class="block">
+    Complete the GE Course Credit Transfer Pre-Approval Application form, and submit it the Secretary of GEPC (B5-119, YEUNG) along with all supporting documents<sup>*</sup>.
+</button>
+
+
+<script>
+$(() => {
+/*
+    $('#myCanvas').attr('width', window.innerWidth);
+    $('#myCanvas').attr('height', window.innerHeight);
+*/
+
+    let s1b1 = $("#s1block1")[0];
+    let s1b2a = $("#s1block2a")[0];
+    let s1b2b = $("#s1block2b")[0];
+    let s1b3a = $("#s1block3a")[0];
+    let s1b3b = $("#s1block3b")[0];
+    let s1b4b = $("#s1block4b")[0];
+
+    connectCanvas1(s1b1, s1b2a, "bottom", "right");
+    connectCanvas1(s1b1, s1b2b, "bottom", "left");
+    connectCanvas1(s1b2a, s1b3a, "bottom", "top");
+    connectCanvas1(s1b2b, s1b3b, "bottom", "top");
+    connectCanvas1(s1b3b, s1b4b, "bottom", "top");
+});
+</script>
+
+</div>
+
+</body>
+</html>
